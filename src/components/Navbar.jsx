@@ -30,7 +30,7 @@ const Navbar = () => {
             <div className={`bg-${isScrolled ? 'blur' : 'transparent'} transition-all duration-300 fixed p-4 top-0 w-full max-h-screen z-50`}>
                 <div className={`container mx-auto flex items-center justify-between ${isScrolled ? 'text-black' : 'text-white'}`}>
                     <div className="flex items-center">
-                        <h1>logo kite</h1>
+                        <h1 className={`${isOpen ? 'text-black' : 'text-white'}`}>logo kite</h1>
                     </div>
                     <div className='hidden md:flex items-center space-x-6'>
                         <a href="#" className="link-underline link-underline-black leading-tight">Destination</a>
@@ -41,7 +41,7 @@ const Navbar = () => {
                     </div>
                     <div className="md:hidden block items-center z-100">
                         {/* mobile */}
-                        <button onClick={toggleMenu} className={`focus:outline-none ${isScrolled ? 'text-black' : 'text-white'}`}>
+                        <button onClick={toggleMenu} className={`focus:outline-none ${isOpen || isScrolled ? 'text-black' : 'text-white'}`}>
                             {isOpen ? (
                                 // SVG untuk menutup
                                 <svg xmlns="http://www.w3.org/2000/svg" className="w-6 h-6" viewBox="0 0 20 20" fill="currentColor">
@@ -60,7 +60,7 @@ const Navbar = () => {
             {/* Opsi-opsi navigasi untuk tampilan mobile */}
             {
                 isOpen && (
-                    <div className="md:hidden bg-white w-screen fixed">
+                    <div className="md:hidden pt-10 bg-white w-screen fixed">
                         <a href="#" className="block p-4 text-black">Destination</a>
                         <a href="#" className="block p-4 text-black">Accommodation</a>
                         <a href="#" className="block p-4 text-black">Machinery</a>
