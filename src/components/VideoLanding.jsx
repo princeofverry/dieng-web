@@ -5,7 +5,7 @@ import scrollGif from '../assets/scroll-down.gif'
 const VideoLanding = () => {
     return (
         <>
-            <div className="Video">
+            <div className="Video h-screen w-full">
                 <video src={videoBg} autoPlay loop muted />
             </div>
             <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center">

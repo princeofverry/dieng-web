@@ -27,21 +27,21 @@ const Navbar = () => {
     };
     return (
         <>
-            <div className={`bg-${isScrolled ? 'blur' : 'transparent'} p-4 transition-all duration-300 sticky top-0 z-50`}>
-                <div className="container mx-auto flex items-center justify-between">
+            <div className={`bg-${isScrolled ? 'blur' : 'transparent'} transition-all duration-300 fixed p-4 top-0 w-full max-h-screen z-50`}>
+                <div className={`container mx-auto flex items-center justify-between ${isScrolled ? 'text-black' : 'text-white'}`}>
                     <div className="flex items-center">
                         <h1>logo kite</h1>
                     </div>
                     <div className='hidden md:flex items-center space-x-6'>
-                        <a href="#" className="link-underline link-underline-black text-black leading-tight">Destination</a>
-                        <a href="#" className="link-underline link-underline-black text-black leading-tight">Accommodation</a>
-                        <a href="#" className="link-underline link-underline-black text-black leading-tight">Machinery</a>
-                        <a href="#" className="link-underline link-underline-black text-black leading-tight">Gallery</a>
-                        <a href="#" className="link-underline link-underline-black text-black leading-tight">About Us</a>
+                        <a href="#" className="link-underline link-underline-black leading-tight">Destination</a>
+                        <a href="#" className="link-underline link-underline-black leading-tight">Accommodation</a>
+                        <a href="#" className="link-underline link-underline-black leading-tight">Machinery</a>
+                        <a href="#" className="link-underline link-underline-black leading-tight">Gallery</a>
+                        <a href="#" className="link-underline link-underline-black leading-tight">About Us</a>
                     </div>
-                    <div className="md:hidden flex items-center">
+                    <div className="md:hidden block items-center z-100">
                         {/* mobile */}
-                        <button onClick={toggleMenu} className="text-black focus:outline-none">
+                        <button onClick={toggleMenu} className={`focus:outline-none ${isScrolled ? 'text-black' : 'text-white'}`}>
                             {isOpen ? (
                                 // SVG untuk menutup
                                 <svg xmlns="http://www.w3.org/2000/svg" className="w-6 h-6" viewBox="0 0 20 20" fill="currentColor">
@@ -60,7 +60,7 @@ const Navbar = () => {
             {/* Opsi-opsi navigasi untuk tampilan mobile */}
             {
                 isOpen && (
-                    <div className="md:hidden bg-transparent mt-2">
+                    <div className="md:hidden bg-white w-screen fixed">
                         <a href="#" className="block p-4 text-black">Destination</a>
                         <a href="#" className="block p-4 text-black">Accommodation</a>
                         <a href="#" className="block p-4 text-black">Machinery</a>

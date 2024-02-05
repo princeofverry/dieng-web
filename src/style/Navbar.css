@@ -30,6 +30,5 @@
 
 /* Untuk membuat efek transparan */
 .bg-transparent {
-  backdrop-filter: none;
   background-color: transparent;
 }
