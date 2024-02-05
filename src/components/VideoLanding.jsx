@@ -14,7 +14,7 @@ const VideoLanding = () => {
                 </h1>
                 <p className='text-2xl text-white font-semibold'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, unde!</p>
             </div>
-            <div className="absolute bottom-1 h-16 w-16 left-1/2 transform -translate-x-1/2">
+            <div className="absolute bottom-5 h-16 w-16 left-1/2 transform -translate-x-1/2">
                 <img src={scrollGif} className="mx-auto w-full h-auto animate-scrollAnimation" alt="Scrolling GIF" />
             </div>
         </>

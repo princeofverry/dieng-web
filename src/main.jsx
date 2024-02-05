@@ -1,6 +1,6 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import Navbar from './components/Navbar.jsx'
+import Navbar from './components/Navbar'
 import './index.css'
 import Homepage from './page/homepage.jsx'
 
