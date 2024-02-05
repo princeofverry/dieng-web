@@ -1,6 +1,7 @@
 import React from 'react'
 import '../style/Navbar.css'
 import { useState, useEffect } from 'react'
+import logo from '../assets/atasAwan.png'
 
 const Navbar = () => {
     const [isOpen, setIsOpen] = useState(false);
@@ -30,7 +31,7 @@ const Navbar = () => {
             <div className={`bg-${isScrolled ? 'blur' : 'transparent'} transition-all duration-300 fixed p-4 top-0 w-full max-h-screen z-50`}>
                 <div className={`container mx-auto flex items-center justify-between ${isScrolled ? 'text-black' : 'text-white'}`}>
                     <div className="flex items-center">
-                        <h1 className={`${isOpen ? 'text-black' : 'text-white'}`}>logo kite</h1>
+                        <img src={logo} width={120} alt="logo" className='cursor-pointer' />
                     </div>
                     <div className='hidden md:flex items-center space-x-6'>
                         <a href="#" className="link-underline link-underline-black leading-tight">Destination</a>
@@ -60,7 +61,7 @@ const Navbar = () => {
             {/* Opsi-opsi navigasi untuk tampilan mobile */}
             {
                 isOpen && (
-                    <div className="md:hidden pt-10 bg-white w-screen fixed">
+                    <div className="md:hidden pt-12 bg-white w-screen fixed">
                         <a href="#" className="block p-4 text-black">Destination</a>
                         <a href="#" className="block p-4 text-black">Accommodation</a>
                         <a href="#" className="block p-4 text-black">Machinery</a>
