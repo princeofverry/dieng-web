@@ -28,17 +28,17 @@ const Navbar = () => {
     };
     return (
         <>
-            <div className={`bg-${isScrolled ? 'blur bg-white bg-opacity-10 shadow-md' : 'transparent'} transition-all duration-300 fixed p-4 top-0 w-full max-h-screen z-50 `}>
+            <div className={`bg-${isScrolled ? 'blur bg-white bg-opacity-10 md:shadow-md' : 'transparent'} transition-all duration-300 fixed p-4 top-0 w-full max-h-screen z-50 `}>
                 <div className={`container mx-auto flex items-center justify-between ${isScrolled ? 'text-black' : 'text-white'}`}>
                     <div className="flex items-center">
                         <img src={logo} width={120} alt="logo" className='cursor-pointer' />
                     </div>
-                    <div className='hidden md:flex items-center space-x-6 text-lg'>
-                        <a href="#" className="link-underline link-underline-black leading-tight">Destination</a>
-                        <a href="#" className="link-underline link-underline-black leading-tight">Accommodation</a>
-                        <a href="#" className="link-underline link-underline-black leading-tight">Machinery</a>
-                        <a href="#" className="link-underline link-underline-black leading-tight">Gallery</a>
-                        <a href="#" className="link-underline link-underline-black leading-tight">About Us</a>
+                    <div className='hidden md:flex items-center space-x-6 text-lg font-medium'>
+                        <a href="#" className="link-underline link-underline-black leading-tight hover:text-[#e16a44] transition-all duration-300">Destination</a>
+                        <a href="#" className="link-underline link-underline-black leading-tight hover:text-[#e16a44] transition-all duration-300">Accommodation</a>
+                        <a href="#" className="link-underline link-underline-black leading-tight hover:text-[#e16a44] transition-all duration-300">Machinery</a>
+                        <a href="#" className="link-underline link-underline-black leading-tight hover:text-[#e16a44] transition-all duration-300">Gallery</a>
+                        <a href="#" className="link-underline link-underline-black leading-tight hover:text-[#e16a44] transition-all duration-300">About Us</a>
                     </div>
                     <div className="md:hidden block items-center z-100">
                         {/* mobile */}
