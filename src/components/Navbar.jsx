@@ -35,7 +35,7 @@ const Navbar = () => {
     };
     return (
         <>
-            <div className={`bg-${isScrolled ? 'blur bg-white bg-opacity-10 md:shadow-md' : 'transparent'} transition-all duration-300 fixed p-4 top-0 w-full max-h-screen z-50 `}>
+            <div className={`navigation bg-${isScrolled ? 'blur bg-white bg-opacity-10 md:shadow-md' : 'transparent'} transition-all duration-300 fixed p-4 top-0 w-full max-h-screen z-50`}>
                 <div className={`container mx-auto flex items-center justify-between ${isScrolled ? 'text-black' : 'text-white'}`}>
                     <div className="flex items-center">
                         <img src={logo} width={120} alt="logo" className='cursor-pointer' onClick={handleLogoClick} />
@@ -47,9 +47,9 @@ const Navbar = () => {
                         <Link to="/Festival" className="link-underline link-underline-black leading-tight hover:text-[#e16a44] transition-all duration-300">Festival</Link>
                         <Link to="/About-us" className="link-underline link-underline-black leading-tight hover:text-[#e16a44] transition-all duration-300">About Us</Link>
                     </div>
-                    <div className="md:hidden block items-center z-100">
+                    <div className="md:hidden block items-center">
                         {/* mobile */}
-                        <button onClick={toggleMenu} className={`focus:outline-none ${isOpen || isScrolled ? 'text-black' : 'text-white'}`}>
+                        <button onClick={toggleMenu} className={`focus:outline-none ${isOpen || isScrolled ? 'text-black ' : 'text-white'}`}>
                             {isOpen ? (
                                 // SVG untuk menutup
                                 <svg xmlns="http://www.w3.org/2000/svg" className="w-6 h-6" viewBox="0 0 20 20" fill="currentColor">
@@ -65,18 +65,18 @@ const Navbar = () => {
                     </div>
                 </div>
             </div>
-            {/* Opsi-opsi navigasi untuk tampilan mobile */}
             {
                 isOpen && (
-                    <div className="md:hidden pt-12 bg-white w-screen fixed text-lg">
+                    <div className="fixed flex-1 justify-self-center pb-3 md:block md:pb-0 md:mt-0 pt-12 bg-white w-screen text-lg z-200">
                         <Link to="/Destination" className="block p-4 text-black">Destination</Link>
                         <Link to="/Accommodation" className="block p-4 text-black">Accommodation</Link>
                         <Link to="/Machinery" className="block p-4 text-black">Machinery</Link>
                         <Link to="/Festival" className="block p-4 text-black">Festival</Link>
                         <Link to="/About-us" className="block p-4 text-black">About Us</Link>
-                    </div>
+                    </div >
                 )
             }
+            {/* Opsi-opsi navigasi untuk tampilan mobile */}
         </>
     )
 }
