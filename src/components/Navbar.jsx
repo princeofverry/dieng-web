@@ -2,8 +2,15 @@ import React from 'react'
 import '../style/Navbar.css'
 import { useState, useEffect } from 'react'
 import logo from '../assets/atasAwan.png'
+import { Link, useNavigate } from 'react-router-dom'
 
 const Navbar = () => {
+    const navigate = useNavigate();
+
+    const handleLogoClick = () => {
+        navigate('/');
+    };
+
     const [isOpen, setIsOpen] = useState(false);
     const [isScrolled, setIsScrolled] = useState(false);
 
@@ -31,14 +38,14 @@ const Navbar = () => {
             <div className={`bg-${isScrolled ? 'blur bg-white bg-opacity-10 md:shadow-md' : 'transparent'} transition-all duration-300 fixed p-4 top-0 w-full max-h-screen z-50 `}>
                 <div className={`container mx-auto flex items-center justify-between ${isScrolled ? 'text-black' : 'text-white'}`}>
                     <div className="flex items-center">
-                        <img src={logo} width={120} alt="logo" className='cursor-pointer' />
+                        <img src={logo} width={120} alt="logo" className='cursor-pointer' onClick={handleLogoClick} />
                     </div>
                     <div className='hidden md:flex items-center space-x-6 text-lg font-medium'>
-                        <a href="#" className="link-underline link-underline-black leading-tight hover:text-[#e16a44] transition-all duration-300">Destination</a>
-                        <a href="#" className="link-underline link-underline-black leading-tight hover:text-[#e16a44] transition-all duration-300">Accommodation</a>
-                        <a href="#" className="link-underline link-underline-black leading-tight hover:text-[#e16a44] transition-all duration-300">Machinery</a>
-                        <a href="#" className="link-underline link-underline-black leading-tight hover:text-[#e16a44] transition-all duration-300">Gallery</a>
-                        <a href="#" className="link-underline link-underline-black leading-tight hover:text-[#e16a44] transition-all duration-300">About Us</a>
+                        <Link to="/Destination" className="link-underline link-underline-black leading-tight hover:text-[#e16a44] transition-all duration-300">Destination</Link>
+                        <Link to="/Accommodation" className="link-underline link-underline-black leading-tight hover:text-[#e16a44] transition-all duration-300">Accommodation</Link>
+                        <Link to="/Machinery" className="link-underline link-underline-black leading-tight hover:text-[#e16a44] transition-all duration-300">Machinery</Link>
+                        <Link to="/Festival" className="link-underline link-underline-black leading-tight hover:text-[#e16a44] transition-all duration-300">Festival</Link>
+                        <Link to="/About-us" className="link-underline link-underline-black leading-tight hover:text-[#e16a44] transition-all duration-300">About Us</Link>
                     </div>
                     <div className="md:hidden block items-center z-100">
                         {/* mobile */}
