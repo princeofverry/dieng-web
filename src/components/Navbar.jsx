@@ -69,11 +69,11 @@ const Navbar = () => {
             {
                 isOpen && (
                     <div className="md:hidden pt-12 bg-white w-screen fixed text-lg">
-                        <a href="#" className="block p-4 text-black">Destination</a>
-                        <a href="#" className="block p-4 text-black">Accommodation</a>
-                        <a href="#" className="block p-4 text-black">Machinery</a>
-                        <a href="#" className="block p-4 text-black">Gallery</a>
-                        <a href="#" className="block p-4 text-black">About Us</a>
+                        <Link to="/Destination" className="block p-4 text-black">Destination</Link>
+                        <Link to="/Accommodation" className="block p-4 text-black">Accommodation</Link>
+                        <Link to="/Machinery" className="block p-4 text-black">Machinery</Link>
+                        <Link to="/Festival" className="block p-4 text-black">Festival</Link>
+                        <Link to="/About-us" className="block p-4 text-black">About Us</Link>
                     </div>
                 )
             }
