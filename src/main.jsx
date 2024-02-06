@@ -14,9 +14,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
       <Navbar />
       <Routes>
         <Route path="/" element={<Homepage />} />
-      </Routes>
-      <Routes>
-        <Route path="/Festival" element={<Festival />} />
+        <Route path="/festival" element={<Festival />} />
         {/* Tambahkan rute lain jika diperlukan */}
       </Routes>
     </Router>
