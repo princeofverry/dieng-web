@@ -6,6 +6,7 @@ import Navbar from './components/Navbar';
 import Festival from './page/festival';
 import './index.css';
 import Homepage from './page/homepage.jsx';
+import Lampion from './page/lampion';
 
 // Render komponen dengan React Router v6
 ReactDOM.createRoot(document.getElementById('root')).render(
@@ -15,6 +16,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
       <Routes>
         <Route path="/" element={<Homepage />} />
         <Route path="/festival" element={<Festival />} />
+        <Route path="/Lampion" element={<Lampion />} />
         {/* Tambahkan rute lain jika diperlukan */}
       </Routes>
     </Router>
