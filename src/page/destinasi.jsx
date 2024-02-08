@@ -35,9 +35,9 @@ const Destinasi = () => {
       </div>
 
       <div className="md:mx-auto bg-[#F9F9F9]">
-        <h2 className="text-3xl md:text-4xl font-semibold text-[#E16A44] mb-4 px-4 mt-4" data-aos="fade-right" data-aos-duration="1000">FIND YOUR DESTINATION RIGHT NOW!</h2>
+        <h2 className="text-3xl md:text-4xl font-semibold text-[#E16A44] mb-4 px-4 mt-4" data-aos="zoom-in" data-aos-duration="1000">FIND YOUR DESTINATION RIGHT NOW!</h2>
         <div className="flex items-center mb-2 md:mb-0 px-4">
-          <span className="font-regular text-gray-800" data-aos="fade-left" data-aos-duration="1000">Berikut adalah daftar destinasi yang tersedia dengan harga yang bersahabat, silahkan pilih sesuai keinginan</span>
+          <span className="font-regular text-gray-800" data-aos="zoom-in" data-aos-duration="1000">Berikut adalah daftar destinasi yang tersedia dengan harga yang bersahabat, silahkan pilih sesuai keinginan</span>
         </div>
 
         <div className="flex flex-wrap md:gap-16 gap-4 justify-center items-center mt-8 px-4">

@@ -7,9 +7,9 @@ import { Link, useNavigate } from 'react-router-dom';
 const Navbar = () => {
     const navigate = useNavigate();
 
-    const handleLogoClick = () => {
-        navigate('/');
-    };
+    // const handleLogoClick = () => {
+    //     navigate('/');
+    // };
 
     const [isOpen, setIsOpen] = useState(false);
     const [isScrolled, setIsScrolled] = useState(false);
@@ -30,6 +30,22 @@ const Navbar = () => {
         setIsOpen(!isOpen);
     };
 
+    const [activeLink, setActiveLink] = useState('');
+
+    useEffect(() => {
+        const currentPath = location.pathname;
+        setActiveLink(currentPath !== "/" ? currentPath : '');
+    }, [location]);
+
+    const handleLinkClick = (path) => {
+        setActiveLink(path);
+    };
+
+    const handleLogoClick = () => {
+        setActiveLink('');
+        navigate('/'); // Navigate to home page
+    };
+
     return (
         <>
             {/* pengen atasnya putih? */}
@@ -37,14 +53,49 @@ const Navbar = () => {
             <div className={`navigation sm:bg-${isScrolled ? 'white bg-white sm:bg-opacity-10 sm:backdrop-filter sm:backdrop-blur-md text-white shadow-md transition-all duration-300' : 'transparent'}  ${isScrolled ? 'shadow-md' : ''} transition-all duration-300 fixed p-4 top-0 w-full z-50`}>
                 <div className="container mx-auto flex items-center justify-between">
                     <div className="flex items-center">
-                        <img src={logo} width={120} alt="logo" className="cursor-pointer" onClick={handleLogoClick} />
+                        <Link
+                            to="/"
+                            className={`link-underline leading-tight hover:text-[#e16a44] transition-all duration-300 ${activeLink === '/' ? 'unactive' : 'active'}`}
+                        >
+                            <img src={logo} width={120} alt="logo" className="cursor-pointer" onClick={handleLogoClick} />
+                        </Link>
                     </div>
                     <div className={`hidden md:flex items-center space-x-6 text-lg font-medium text-${isScrolled ? 'black' : 'white'}`}>
-                        <Link to="/Destinasi" className="link-underline leading-tight hover:text-[#e16a44] transition-all duration-300">Destination</Link>
-                        <Link to="/Accommodation" className="link-underline leading-tight hover:text-[#e16a44] transition-all duration-300">Accommodation</Link>
-                        <Link to="/Machinery" className="link-underline leading-tight hover:text-[#e16a44] transition-all duration-300">Machinery</Link>
-                        <Link to="/Festival" className="link-underline leading-tight hover:text-[#e16a44] transition-all duration-300">Festival</Link>
-                        <Link to="/About-us" className="link-underline leading-tight hover:text-[#e16a44] transition-all duration-300">About Us</Link>
+                        <Link
+                            to="/Destinasi"
+                            onClick={() => handleLinkClick('/Destinasi')}
+                            className={`link-underline leading-tight hover:text-[#e16a44] transition-all duration-300 ${activeLink === '/Destinasi' ? 'active' : ''}`}
+                        >
+                            Destination
+                        </Link>
+                        <Link
+                            to="/Accommodation"
+                            onClick={() => handleLinkClick('/Accommodation')}
+                            className={`link-underline leading-tight hover:text-[#e16a44] transition-all duration-300 ${activeLink === '/Accommodation' ? 'active' : ''}`}
+                        >
+                            Accommodation
+                        </Link>
+                        <Link
+                            to="/Machinery"
+                            onClick={() => handleLinkClick('/Machinery')}
+                            className={`link-underline leading-tight hover:text-[#e16a44] transition-all duration-300 ${activeLink === '/Machinery' ? 'active' : ''}`}
+                        >
+                            Machinery
+                        </Link>
+                        <Link
+                            to="/Festival"
+                            onClick={() => handleLinkClick('/Festival')}
+                            className={`link-underline leading-tight hover:text-[#e16a44] transition-all duration-300 ${activeLink === '/Festival' ? 'active' : ''}`}
+                        >
+                            Festival
+                        </Link>
+                        <Link
+                            to="/About-us"
+                            onClick={() => handleLinkClick('/About-us')}
+                            className={`link-underline leading-tight hover:text-[#e16a44] transition-all duration-300 ${activeLink === '/About-us' ? 'active' : ''}`}
+                        >
+                            About Us
+                        </Link>
                     </div>
                     <div className="md:hidden block">
                         <button onClick={toggleMenu} className={`focus:outline-none ${isScrolled || isOpen ? 'text-black' : 'text-white'}`}>

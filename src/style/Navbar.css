@@ -32,3 +32,8 @@
 .bg-transparent {
   background-color: transparent;
 }
+
+.active {
+  font-weight: bold; /* atau gaya lain sesuai kebutuhan */
+  color: #e16a44;
+}
