@@ -7,7 +7,7 @@ import Couting from './couting'
 const Statistic = () => {
     return (
         <>
-            <div className="flex flex-col lg:flex-row lg:justify-evenly items-center lg:space-x-80 gap-16 py-16 bg-white" data-aos="zoom-in-down" >
+            <div className="flex flex-col lg:flex-row lg:justify-evenly items-center gap-24 py-16 bg-white" data-aos="zoom-in-down">
                 {/* statistik */}
                 <div className='flex items-center gap-4'>
                     <img src={people} />
