@@ -9,7 +9,7 @@ const Maps = () => {
                     <div className="flex flex-col md:items-start items-center md:w-1/4" data-aos="fade-up"
                         data-aos-anchor-placement="top-bottom"
                         data-aos-duration="1000">
-                        <h1 className="text-[#e16a44] text-4xl font-medium mt-4">
+                        <h1 className="text-[#e16a44] md:text-4xl text-2xl font-medium mt-4">
                             <span className="border-t-4 border-[#e16a44] inline ">
                                 DIENG
                             </span>
@@ -26,12 +26,12 @@ const Maps = () => {
                         src="https://maps.google.com/maps?q=dieng&amp;t=&amp;z=13&amp;ie=UTF8&amp;iwloc=&amp;output=embed"
                         width="600"
                         height="450"
-                        frameborder="0"
+                        frameBorder="0"
                         className='rounded-2xl md:w-1/2 w-screen md:px-0 px-4'
                         style={{ border: 0 }}
-                        allowfullscreen=""
+                        allowFullScreen=""
                         aria-hidden="false"
-                        tabindex="0"
+                        tabIndex="0"
                     />
                 </div>
             </div>

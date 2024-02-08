@@ -91,7 +91,7 @@ const Festival = () => {
           {/* Text Content Section */}
           <div className="md:w-2/3 md:ml-4 md:pl-4 relative">
             <h3 className="text-xl md:text-3xl text-[#E16A44] pt-6 font-semibold mb-2">FESTIVAL LAMPION</h3>
-            <h3 className="text-sm md:text-lg mb-2">5 Feb 2024 🕗 07.00 WIB</h3>
+            <h3 className="text-sm font-medium md:text-lg mb-2">5 Feb 2024 <span className="font-normal">🕗 07.00 WIB</span></h3>
             <p className="text-gray-600">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos dicta aperiam tempore tempora magnam! Hic velit ipsam molestiae. Ipsa, assumenda!</p>
 
             {/* Details Link */}
