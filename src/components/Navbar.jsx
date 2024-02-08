@@ -62,7 +62,7 @@ const Navbar = () => {
                 </div>
             </div>
             {isOpen && (
-                <div className={`md:hidden fixed top-16 left-0 right-0 z-50 bg-${isScrolled ? 'white' : 'transparent'} font-semibold rounded-b-lg`}>
+                <div className={`md:hidden fixed top-16 left-0 right-0 z-50 bg-${isScrolled ? 'white shadow-md' : 'transparent'} font-semibold rounded-b-lg`}>
                     <div className="container mx-auto py-4 flex flex-col items-center">
                         <Link to="/Destinasi" className="block py-2 ">Destination</Link>
                         <Link to="/Accommodation" className="block py-2 ">Accommodation</Link>
