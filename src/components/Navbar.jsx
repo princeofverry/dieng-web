@@ -40,7 +40,7 @@ const Navbar = () => {
                         <img src={logo} width={120} alt="logo" className="cursor-pointer" onClick={handleLogoClick} />
                     </div>
                     <div className={`hidden md:flex items-center space-x-6 text-lg font-medium text-${isScrolled ? 'black' : 'white'}`}>
-                        <Link to="/Destination" className="link-underline leading-tight hover:text-[#e16a44] transition-all duration-300">Destination</Link>
+                        <Link to="/Destinasi" className="link-underline leading-tight hover:text-[#e16a44] transition-all duration-300">Destination</Link>
                         <Link to="/Accommodation" className="link-underline leading-tight hover:text-[#e16a44] transition-all duration-300">Accommodation</Link>
                         <Link to="/Machinery" className="link-underline leading-tight hover:text-[#e16a44] transition-all duration-300">Machinery</Link>
                         <Link to="/Festival" className="link-underline leading-tight hover:text-[#e16a44] transition-all duration-300">Festival</Link>
@@ -64,7 +64,7 @@ const Navbar = () => {
             {isOpen && (
                 <div className={`md:hidden fixed top-16 left-0 right-0 z-50 bg-${isScrolled ? 'white' : 'transparent'} font-semibold`}>
                     <div className="container mx-auto py-4 flex flex-col items-center">
-                        <Link to="/Destination" className="block py-2 ">Destination</Link>
+                        <Link to="/Destinasi" className="block py-2 ">Destination</Link>
                         <Link to="/Accommodation" className="block py-2 ">Accommodation</Link>
                         <Link to="/Machinery" className="block py-2 ">Machinery</Link>
                         <Link to="/Festival" className="block py-2 ">Festival</Link>

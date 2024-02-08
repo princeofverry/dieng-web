@@ -31,7 +31,7 @@ const Festival = () => {
       <div className="p-4 sm:p-8 md:mx-auto bg-[#F9F9F9]" data-aos="fade-right" data-aos-duration="1000">
         <h2 className="text-3xl md:text-4xl font-semibold text-[#E16A44] mb-4">Festival Dieng</h2>
 
-        <div className="bg-white p-4 rounded-md shadow-md mb-8" data-aos="fade-left" data-aos-duration="1000">
+        <div className="bg-white p-4 rounded-md shadow-md mb-8"data-aos="fade-left" data-aos-duration="2500">
           <nav className="flex items-center flex-col md:flex-row md:justify-between">
             <div className="flex items-center mb-2 md:mb-0">
               <span className="font-regular text-gray-800">Filter By:</span>
