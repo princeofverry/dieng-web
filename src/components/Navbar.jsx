@@ -55,7 +55,7 @@ const Navbar = () => {
                     <div className="flex items-center">
                         <Link
                             to="/"
-                            className={`link-underline leading-tight hover:text-[#e16a44] transition-all duration-300 ${activeLink === '/' ? 'unactive' : 'active'}`}
+                            className={`${activeLink === '/' ? 'unactive' : 'active'}`}
                         >
                             <img src={logo} width={120} alt="logo" className="cursor-pointer" onClick={handleLogoClick} />
                         </Link>
