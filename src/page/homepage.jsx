@@ -1,6 +1,7 @@
 import React from 'react'
 import DiengBanjarnegara from '../components/diengBanjarnegara'
 import DiscoverDieng from '../components/discoverDieng'
+import FestivalDieng from '../components/festifalDieng'
 import { LoremIpsum } from '../components/Lorem'
 import Maps from '../components/maps'
 import Statistic from '../components/statistic'
@@ -15,6 +16,7 @@ const Homepage = () => {
             <DiengBanjarnegara />
             <Statistic />
             <DiscoverDieng />
+            <FestivalDieng />
             <Maps />
         </>
     )
