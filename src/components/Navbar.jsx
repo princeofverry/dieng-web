@@ -69,9 +69,9 @@ const Navbar = () => {
                             Destination
                         </Link>
                         <Link
-                            to="/Accommodation"
-                            onClick={() => handleLinkClick('/Accommodation')}
-                            className={`link-underline leading-tight hover:text-[#e16a44] transition-all duration-300 ${activeLink === '/Accommodation' ? 'active' : ''}`}
+                            to="/Penginapan"
+                            onClick={() => handleLinkClick('/Penginapan')}
+                            className={`link-underline leading-tight hover:text-[#e16a44] transition-all duration-300 ${activeLink === '/Penginapan' ? 'active' : ''}`}
                         >
                             Accommodation
                         </Link>
@@ -90,9 +90,9 @@ const Navbar = () => {
                             Festival
                         </Link>
                         <Link
-                            to="/About-us"
-                            onClick={() => handleLinkClick('/About-us')}
-                            className={`link-underline leading-tight hover:text-[#e16a44] transition-all duration-300 ${activeLink === '/About-us' ? 'active' : ''}`}
+                            to="/Aboutus"
+                            onClick={() => handleLinkClick('/Aboutus')}
+                            className={`link-underline leading-tight hover:text-[#e16a44] transition-all duration-300 ${activeLink === '/Aboutus' ? 'active' : ''}`}
                         >
                             About Us
                         </Link>
@@ -116,10 +116,10 @@ const Navbar = () => {
                 <div className={`md:hidden fixed top-16 left-0 right-0 z-50 bg-${isScrolled ? 'white shadow-md' : 'transparent'} font-semibold rounded-b-lg`}>
                     <div className="container mx-auto py-4 flex flex-col items-center">
                         <Link to="/Destinasi" className="block py-2 ">Destination</Link>
-                        <Link to="/Accommodation" className="block py-2 ">Accommodation</Link>
+                        <Link to="/Penginapan" className="block py-2 ">Accommodation</Link>
                         <Link to="/Machinery" className="block py-2 ">Machinery</Link>
                         <Link to="/Festival" className="block py-2 ">Festival</Link>
-                        <Link to="/About-us" className="block py-2 ">About Us</Link>
+                        <Link to="/Aboutus" className="block py-2 ">About Us</Link>
                     </div>
                 </div>
             )}
