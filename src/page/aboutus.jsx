@@ -14,7 +14,7 @@ const Aboutus = () => {
   }, []);
 
   return (
-    <div className="h-screen w-full relative">
+    <div className="">
       <div className="h-screen w-full relative">
         <img src={aboutusCover} alt="Background" className="h-screen w-full object-cover" />
 

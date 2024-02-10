@@ -14,7 +14,7 @@ const Festival = () => {
     AOS.init();
   }, []);
   return (
-    <div className="h-screen w-full">
+    <div className="">
       <div className="h-screen w-full">
         <img src={festivalCover} alt="Background" className="h-screen w-full object-cover" />
 

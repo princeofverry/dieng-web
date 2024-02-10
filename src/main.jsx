@@ -10,6 +10,7 @@ import Homepage from './page/homepage.jsx';
 import Lampion from './page/lampion';
 import Penginapan from './page/penginapan';
 import Aboutus from './page/aboutus';
+import Footer from './components/Footer';
 
 // Render komponen dengan React Router v6
 ReactDOM.createRoot(document.getElementById('root')).render(
@@ -25,6 +26,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
         <Route path="/Aboutus" element={<Aboutus />} />
         {/* Tambahkan rute lain jika diperlukan */}
       </Routes>
+      <Footer />
     </Router>
   </React.StrictMode>,
 );

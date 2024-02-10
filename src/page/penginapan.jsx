@@ -9,7 +9,7 @@ const Penginapan = () => {
     AOS.init();
   }, []);
   return (
-    <div className="h-screen w-full">
+    <div className="">
       <div className="h-screen w-full">
         <img src={penginapanCover} alt="Background" className="h-screen w-full object-cover" />
 
