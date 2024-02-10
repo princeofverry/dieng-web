@@ -4,6 +4,7 @@ import DiscoverDieng from '../components/discoverDieng'
 import FestivalDieng from '../components/festifalDieng'
 import { LoremIpsum } from '../components/Lorem'
 import Maps from '../components/maps'
+import OurGallery from '../components/ourGallery'
 import Statistic from '../components/statistic'
 import VideoLanding from '../components/VideoLanding'
 import WelcomingText from '../components/welcomingText'
@@ -17,6 +18,7 @@ const Homepage = () => {
             <Statistic />
             <DiscoverDieng />
             <FestivalDieng />
+            <OurGallery />
             <Maps />
         </>
     )
