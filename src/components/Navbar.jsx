@@ -80,7 +80,7 @@ const Navbar = () => {
                             onClick={() => handleLinkClick('/Machinery')}
                             className={`link-underline leading-tight hover:text-[#e16a44] transition-all duration-300 ${activeLink === '/Machinery' ? 'active' : ''}`}
                         >
-                            Machinery
+                            Merchinary
                         </Link>
                         <Link
                             to="/Festival"
