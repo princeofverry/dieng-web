@@ -11,7 +11,7 @@ const Footer = () => {
             <div className="container mx-auto flex flex-col md:flex-row md:justify-between">
                 <div className="md:w-1/2 md:pr-12 flex flex-col">
                     <img src={logo} className="w-32 md:w-1/3 mx-auto md:mx-0 p-2 bg-white mb-4" alt="Logo" />
-                    <p className="text-sm ml-0 w-1/2 text-justify mb-4">ATASAWAN adalah Website Pusat Informasi Pariwisata Dieng yang dikelola oleh Tim Newbie.</p>
+                    <p className="text-sm ml-0 w-full md:w-1/2 text-justify mb-4">ATASAWAN adalah Website Pusat Informasi Pariwisata Dieng yang dikelola oleh Tim Newbie.</p>
                     <div className="flex sm:flex-row flex-col items-center gap-4 mb-4">
                         <h2 className="text-sm font-bold">FOLLOW US</h2>
                         <div className="flex gap-6">
