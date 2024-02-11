@@ -3,7 +3,7 @@ import React from 'react'
 const Maps = () => {
     return (
         <>
-            <div className="h-fit w-full md:py-20 py-8 bg-[#F9F9F9]">
+            <div className="h-fit w-full md:py-20 py-8 bg-white">
                 {/* maps */}
                 <div className="flex lg:flex-row flex-col items-center justify-center gap-20">
                     <div className="flex flex-col md:items-start items-center lg:w-1/4" data-aos="fade-up"

@@ -6,6 +6,7 @@ import { LoremIpsum } from '../components/Lorem'
 import Maps from '../components/maps'
 import OurGallery from '../components/ourGallery'
 import Statistic from '../components/statistic'
+import Testimonial from '../components/Testimonial'
 import VideoLanding from '../components/VideoLanding'
 import WelcomingText from '../components/welcomingText'
 
@@ -20,6 +21,7 @@ const Homepage = () => {
             <FestivalDieng />
             <OurGallery />
             <Maps />
+            <Testimonial />
         </>
     )
 }
