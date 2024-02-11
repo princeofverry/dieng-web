@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import profile from '../assets/goyounjung.jpg';
 
 const Testimonial = () => {
@@ -31,13 +31,21 @@ const Testimonial = () => {
         setCurrentSlide(currentSlide === 0 ? testimonials.length - 2 : currentSlide - 2);
     };
 
+    useEffect(() => {
+        const interval = setInterval(() => {
+            handleNext();
+        }, 5000); // Change 5000 to adjust the interval time in milliseconds
+
+        return () => clearInterval(interval);
+    }, [currentSlide]);
+
     return (
         <>
             <div className="bg-[#F9F9F9]">
                 <h1 className="text-[#e16a44] md:text-4xl text-2xl font-medium mx-auto lg:mx-0 text-center py-8">
                     TESTIMONI
                 </h1>
-                <div className="pb-4 flex flex-row gap-8 justify-center items-center">
+                <div className="pb-4 flex md:flex-row flex-col gap-8 justify-center items-center px-4">
                     {testimonials.slice(currentSlide, currentSlide + 2).map((testimonial, index) => (
                         <div key={index} className="bg-white md:w-1/4 w-full p-4 rounded-xl shadow-xl">
                             <p className="text-justify">{testimonial.text}</p>
