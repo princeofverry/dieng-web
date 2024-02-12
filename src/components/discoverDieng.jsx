@@ -10,7 +10,7 @@ const DiscoverDieng = () => {
             <div className="bg-[#F9F9F9] flex flex-col justify-center items-center py-4 pb-16" data-aos="fade-up">
                 <hr className="border-t-4 border-[#e16a44] md:w-24 w-16 mx-auto md:my-8 my-4" />
                 <h1 className="text-[#E16A44] md:text-4xl text-xl font-semibold">
-                    Discover Dieng
+                    DISCOVER DIENG
                 </h1>
                 <div>
                     <div className='flex flex-wrap gap-12 xl:px-8 px-4 justify-center items-center py-8'>

@@ -36,15 +36,15 @@ const Festival = () => {
             <div className="flex items-center mb-2 md:mb-0">
               <span className="font-regular text-gray-800">Filter By:</span>
             </div>
-            <div className="flex items-center space-x-4">
-              <div className="flex items-center space-x-2">
+            <div className="flex items-center space-x-4 flex-wrap">
+              <div className="flex items-center space-x-2 mb-2 md:mb-0">
                 <div className="border border-#271E1B p-2 rounded-md">
                   <span className="text-gray-600">Urutkan</span>
                   <span className="text-[#271E1B] transform rotate-90 ml-1 inline-block">&#8250;</span>
                 </div>
               </div>
 
-              <div className="flex items-center space-x-4">
+              <div className="flex items-center space-x-4 mb-2 md:mb-0">
                 <div className="flex items-center space-x-2">
                   <div className="border border-#271E1B p-2 rounded-md">
                     <span className="text-gray-600">Bulan</span>
@@ -53,7 +53,7 @@ const Festival = () => {
                 </div>
               </div>
 
-              <div className="flex items-center space-x-4">
+              <div className="flex items-center space-x-4 mb-2 md:mb-0">
                 <div className="flex items-center space-x-2">
                   <div className="border border-#271E1B p-2 rounded-md">
                     <span className="text-gray-600">Tahun</span>
@@ -62,7 +62,7 @@ const Festival = () => {
                 </div>
               </div>
 
-              <div className="flex items-center space-x-4">
+              <div className="flex items-center space-x-4 mb-2 md:mb-0">
                 <div className="flex items-center space-x-2">
                   <div className="border border-#271E1B p-2 rounded-md">
                     <span className="text-gray-600">Masukkan Teks</span>
@@ -74,29 +74,29 @@ const Festival = () => {
         </div>
 
 
-        {/* LAMPION */}
+        {/* KIRAB BUDAYA */}
         <div className="bg-white mb-8 flex flex-col md:flex-row rounded overflow-hidden"
           data-aos="fade-up"
           data-aos-anchor-placement="top-bottom"
           data-aos-duration="1000">
           {/* Image Section */}
           <div className="md:w-1/3 relative">
-            <Link to="/Lampion">
+            <Link to="/Kirab">
               <div className="absolute top-0 left-0 w-full h-60 gradient-overlay" style={{ background: 'linear-gradient(to top, rgba(255, 255, 255, 0.8) 0%, rgba(255, 255, 255, 0) 20%, rgba(0, 0, 0, 0.5) 100%)' }}></div>
               <div className="absolute top-0 left-0 w-full h-60 gradient-overlay"></div>
-              <img src={lampion} alt="Festival Lampion" className="w-full h-60 object-cover rounded" />
+              <img src={kirabBudaya} alt="Festival Lampion" className="w-full h-60 object-cover rounded" />
             </Link>
           </div>
 
           {/* Text Content Section */}
           <div className="md:w-2/3 md:ml-4 md:pl-4 relative">
-            <h3 className="text-xl md:text-3xl text-[#E16A44] pt-6 font-semibold mb-2">FESTIVAL LAMPION</h3>
+            <h3 className="text-xl md:text-3xl text-[#E16A44] pt-6 font-semibold mb-2">KIRAB BUDAYA</h3>
             <h3 className="text-sm font-medium md:text-lg mb-2">5 Feb 2024 <span className="font-normal">🕗 07.00 WIB</span></h3>
             <p className="text-gray-600">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos dicta aperiam tempore tempora magnam! Hic velit ipsam molestiae. Ipsa, assumenda!</p>
 
             {/* Details Link */}
             <div className="absolute sm:bottom-6 bottom-0 right-4">
-              <Link to="/Lampion" className="text-500 cursor-pointer">See Details &#8250;</Link>
+              <Link to="/Kirab" className="text-500 cursor-pointer">See Details &#8250;</Link>
             </div>
           </div>
         </div>
@@ -111,7 +111,7 @@ const Festival = () => {
           data-aos-duration="1000">
           {/* Image Section */}
           <div className="md:w-1/3 relative">
-            <Link to="/FestivalLampion">
+            <Link to="/Kirab">
               <div className="absolute top-0 left-0 w-full h-60 gradient-overlay" style={{ background: 'linear-gradient(to top, rgba(255, 255, 255, 0.8) 0%, rgba(255, 255, 255, 0) 20%, rgba(0, 0, 0, 0.5) 100%)' }}></div>
               <div className="absolute top-0 left-0 w-full h-60 gradient-overlay"></div>
               <img src={ruwatan} alt="Festival Lampion" className="w-full h-60 object-cover rounded" />
@@ -126,7 +126,7 @@ const Festival = () => {
 
             {/* Details Link */}
             <div className="absolute sm:bottom-6 bottom-0 right-4">
-              <Link to="/FestivalLampion" className="text-500 cursor-pointer">See Details &#8250;</Link>
+              <Link to="/Kirab" className="text-500 cursor-pointer">See Details &#8250;</Link>
             </div>
           </div>
         </div>
@@ -138,7 +138,7 @@ const Festival = () => {
           data-aos-duration="1000">
           {/* Image Section */}
           <div className="md:w-1/3 relative">
-            <Link to="/FestivalLampion">
+            <Link to="/Kirab">
               <div className="absolute top-0 left-0 w-full h-60 gradient-overlay" style={{ background: 'linear-gradient(to top, rgba(255, 255, 255, 0.8) 0%, rgba(255, 255, 255, 0) 20%, rgba(0, 0, 0, 0.5) 100%)' }}></div>
               <div className="absolute top-0 left-0 w-full h-60 gradient-overlay"></div>
               <img src={baritan} alt="Festival Lampion" className="w-full h-60 object-cover rounded" />
@@ -153,34 +153,34 @@ const Festival = () => {
 
             {/* Details Link */}
             <div className="absolute sm:bottom-6 bottom-0 right-4">
-              <Link to="/FestivalLampion" className="text-500 cursor-pointer">See Details &#8250;</Link>
+              <Link to="/Kirab" className="text-500 cursor-pointer">See Details &#8250;</Link>
             </div>
           </div>
         </div>
 
-        {/* KIRAB BUDAYA */}
+        {/* LAMPION */}
         <div className="bg-white mb-8 flex flex-col md:flex-row rounded overflow-hidden"
           data-aos="fade-up"
           data-aos-anchor-placement="top-bottom"
           data-aos-duration="1000">
           {/* foto */}
           <div className="md:w-1/3 relative">
-            <Link to="/FestivalLampion">
+            <Link to="/Kirab">
               <div className="absolute top-0 left-0 w-full h-60 gradient-overlay" style={{ background: 'linear-gradient(to top, rgba(255, 255, 255, 0.8) 0%, rgba(255, 255, 255, 0) 20%, rgba(0, 0, 0, 0.5) 100%)' }}></div>
               <div className="absolute top-0 left-0 w-full h-60 gradient-overlay"></div>
-              <img src={kirabBudaya} alt="Festival Lampion" className="w-full h-60 object-cover rounded" />
+              <img src={lampion} alt="Festival Lampion" className="w-full h-60 object-cover rounded" />
             </Link>
           </div>
 
           {/* Text  */}
           <div className="md:w-2/3 md:ml-4 md:pl-4 relative">
-            <h3 className="text-xl md:text-3xl text-[#E16A44] pt-6 font-semibold mb-2">KIRAB BUDAYA</h3>
+            <h3 className="text-xl md:text-3xl text-[#E16A44] pt-6 font-semibold mb-2">FESTIVAL LAMPION</h3>
             <h3 className="text-sm md:text-lg mb-2">5 Feb 2024 🕗 07.00 WIB</h3>
             <p className="text-gray-600">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos dicta aperiam tempore tempora magnam! Hic velit ipsam molestiae. Ipsa, assumenda!</p>
 
             {/* Details Link */}
             <div className="absolute sm:bottom-6 bottom-0 right-4">
-              <Link to="/FestivalLampion" className="text-500 cursor-pointer">See Details &#8250;</Link>
+              <Link to="/Kirab" className="text-500 cursor-pointer">See Details &#8250;</Link>
             </div>
           </div>
         </div>

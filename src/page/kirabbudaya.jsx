@@ -1,0 +1,66 @@
+import React, { useEffect } from 'react';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+import kirabBudaya2 from '../assets/kirabbudaya2.png';
+import iconTempat from '../assets/iconTempat.png';
+import iconTanggal from '../assets/iconTanggal.png';
+import iconTiket from '../assets/iconTiket.png';
+
+const Kirab = () => {
+  useEffect(() => {
+    AOS.init();
+  }, []);
+
+  return (
+    <div className="">
+      <div className="relative h-screen w-full">
+        <img src={kirabBudaya2} alt="Background" className="h-full w-full object-cover" />
+
+        <div className="absolute top-0 left-0 w-full h-full bg-black opacity-30"></div>
+
+        {/* Kotak Putih */}
+        <div className="absolute top-1/2 transform translate-x-1/2 -translate-y-1/2 text-left max-w-screen-md">
+          <div className="bg-white p-6 rounded-lg relative" style={{ width: '330px', height: '350px' }}>
+            <h1 className="text-3xl text-[#262626] font-bold mb-4">KIRAB BUDAYA</h1>
+            <div className="flex items-center mb-6">
+              <img src={iconTempat} alt="Icon Tempat" className="mr-3" />
+              <p className="text-lg">Dieng, Wonosobo</p>
+            </div>
+            <div className="flex items-center mb-6">
+              <img src={iconTanggal} alt="Icon Tanggal" className="mr-3" />
+              <p className="text-lg">20 Feb 2024</p>
+            </div>
+            <div className="flex items-center mb-6">
+              <img src={iconTiket} alt="Icon Tiket" className="mr-3" />
+              <p className="text-lg">Gratis</p>
+            </div>
+
+            {/* Kotak Penunjuk Arah */}
+            <div className="absolute">
+              <div className="bg-[#E16A44] text-white p-2 rounded-md">
+                <span className="text-lg">Penunjuk Arah / map</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div className="md:mx-auto bg-[#F9F9F9] py-8">
+        <h2 className="text-3xl md:text-4xl font-semibold text-[#E16A44] mb-4 px-4 mt-4" data-aos="zoom-in" data-aos-duration="1000">DESKRIPSI</h2>
+        <div className="flex items-center mb-2 md:mb-0 px-4" data-aos="zoom-in" data-aos-duration="1000">
+          <span className="font-regular text-gray-800">
+            Kirab budaya menjadi salah satu daya tarik Dieng Culture Festival yang banyak menarik wisatawan. 
+            Pasalnya, acara ini dimulai sebelum dilangsungkan ruwatan atau pemotongan rambut gimbal.
+            Kirab budaya berisi kesenian tradisional yang mengiringi upacara adat ruwatan. 
+            Kesenian tradisional ini mengiringi anak berambut gimbal yang akan dicukur rambutnya. 
+            Festival ini diisi oleh kesenian tradisional jawa, seperti angklung, 
+            barongsai kali wetan, lengger, dan masih banyak lagi. Sangat ramai dan meriah!
+          </span>
+        </div>
+
+      </div>
+    </div>
+  );
+}
+
+export default Kirab;
