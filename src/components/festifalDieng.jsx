@@ -12,6 +12,11 @@ const FestivalDieng = () => {
         { src: FD2, title: 'Anjay', keterangan: 'Lorem ipsum dolar sit amet' },
         { src: FD3, title: 'Bnjay', keterangan: 'anjay' },
         { src: FD4, title: 'Bjir', keterangan: 'bjir' },
+        { src: FD5, title: 'Njay', keterangan: 'anjay' },
+        { src: FD1, title: 'Anjay', keterangan: 'Lorem ipsum dolar sit amet' },
+        { src: FD2, title: 'Anjay', keterangan: 'Lorem ipsum dolar sit amet' },
+        { src: FD3, title: 'Bnjay', keterangan: 'anjay' },
+        { src: FD4, title: 'Bjir', keterangan: 'bjir' },
         { src: FD5, title: 'Njay', keterangan: 'anjay' }
     ];
 

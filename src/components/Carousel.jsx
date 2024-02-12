@@ -1,4 +1,5 @@
 import React, { useRef, useEffect } from 'react';
+import '../style/Carousel.css'
 
 const Carousel = ({ images }) => {
     const containerRef = useRef(null);
@@ -24,7 +25,7 @@ const Carousel = ({ images }) => {
 
     return (
         <div className="flex flex-col items-center">
-            <div className="flex overflow-x-auto w-full mb-4 pb-4" ref={containerRef}>
+            <div className="flex overflow-x-auto w-full mb-4 pb-4 container" ref={containerRef}>
                 <div className="flex">
                     {images.map((image, index) => (
                         <div
