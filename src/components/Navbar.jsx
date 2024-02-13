@@ -50,7 +50,7 @@ const Navbar = () => {
         <>
             {/* pengen atasnya putih? */}
             {/* <div className={`navigation bg-${isScrolled ? 'white' : 'transparent'} md:bg-${isScrolled ? 'transparent' : 'transparent'} ${isScrolled ? 'shadow-md' : ''}  transition-all duration-300 fixed p-4 top-0 w-full z-50`}> */}
-            <div className={`navigation sm:bg-${isScrolled ? 'white bg-white sm:bg-opacity-10 sm:backdrop-filter sm:backdrop-blur-md text-white shadow-md transition-all duration-300' : 'transparent'}  ${isScrolled ? 'shadow-md' : ''} transition-all duration-300 fixed p-4 top-0 w-full z-50`}>
+            <div className={`navigation md:bg-${isScrolled ? 'white bg-white md:bg-opacity-10 sm:backdrop-filter sm:backdrop-blur-md text-white shadow-md transition-all duration-300' : 'transparent'}  ${isScrolled ? 'shadow-md' : ''} transition-all duration-300 fixed p-4 top-0 w-full z-50`}>
                 <div className="container mx-auto flex items-center justify-between">
                     <div className="flex items-center">
                         <Link
