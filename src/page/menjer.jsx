@@ -22,27 +22,27 @@ const Menjer = () => {
       </div>
 
       <div className="md:mx-auto bg-[#F9F9F9] py-8 px-8">
-  <h2 className="text-3xl md:text-4xl font-semibold text-[#E16A44] mb-4 px-4 mt-4">
-    DESKRIPSI
-  </h2>
-  
-  <div className="mb-4 px-4">
-    <span className="font-regular text-gray-800">
-      Telaga Menjer merupakan telaga terluas di kawasan Dieng, terletak di Desa Maron Kecamatan Garung Kabupaten Wonosobo, dengan luas sekitar 70 Ha dan kedalaman sekitar 60 meter, berada pada ketinggian sekitar 1300 Mdpl, tepatnya di bawah gunung Sikudi, telaga yang dikenal oleh berbagai kalangan sejak tahun 1905 karena dokumentasinya dipublikasikan oleh Warga berkebangsaan Belanda, bahkan sampai tahun 1940 pun masih sering diabadikan dalam bentuk foto oleh warga Belanda tersebut yang akhirnya datanya tersimpan di Belanda.
-    </span>
-  </div>
+        <h2 className="text-3xl md:text-4xl font-semibold text-[#E16A44] mb-4 px-4 mt-4">
+          DESKRIPSI
+        </h2>
+        
+        <div className="mb-4 px-4">
+          <span className="font-regular text-gray-800">
+            Telaga Menjer merupakan telaga terluas di kawasan Dieng, terletak di Desa Maron Kecamatan Garung Kabupaten Wonosobo, dengan luas sekitar 70 Ha dan kedalaman sekitar 60 meter, berada pada ketinggian sekitar 1300 Mdpl, tepatnya di bawah gunung Sikudi, telaga yang dikenal oleh berbagai kalangan sejak tahun 1905 karena dokumentasinya dipublikasikan oleh Warga berkebangsaan Belanda, bahkan sampai tahun 1940 pun masih sering diabadikan dalam bentuk foto oleh warga Belanda tersebut yang akhirnya datanya tersimpan di Belanda.
+          </span>
+        </div>
 
-  <div className="mb-4 px-4">
-    <span className="font-regular text-gray-800">
-      Terletak di bawah gunung yang lebat tentunya menjadi keuntungan tersendiri bagi Telaga Menjer karena airnya akan selalu melimpah. Selain untuk kepentingan wisata, pemancingan, pengairan, telaga Menjer juga dimanfaatkan sebagai pembangkit Listrik Tenaga Air (PLTA) mulai tahun 1982 sampai sekarang. Lokasi yang nyaman seperti di Telaga Menjer ini menjadi idola tersendiri bagi penduduk lokal maupun wisatawan yang berkunjung. Bukit-bukit dan bebatuan yang berdiri kokoh seolah menciptakan benteng tersendiri untuk melindungi kecantikan Telaga Menjer ini.
-    </span>
-  </div>
+        <div className="mb-4 px-4">
+          <span className="font-regular text-gray-800">
+            Terletak di bawah gunung yang lebat tentunya menjadi keuntungan tersendiri bagi Telaga Menjer karena airnya akan selalu melimpah. Selain untuk kepentingan wisata, pemancingan, pengairan, telaga Menjer juga dimanfaatkan sebagai pembangkit Listrik Tenaga Air (PLTA) mulai tahun 1982 sampai sekarang. Lokasi yang nyaman seperti di Telaga Menjer ini menjadi idola tersendiri bagi penduduk lokal maupun wisatawan yang berkunjung. Bukit-bukit dan bebatuan yang berdiri kokoh seolah menciptakan benteng tersendiri untuk melindungi kecantikan Telaga Menjer ini.
+          </span>
+        </div>
 
-  <div className="px-4">
-    <span className='font-regular text-gray-800'>
-      Untuk mencapai lokasi dapat ditempuh dengan mobil pribadi maupun motor roda dua, jalannya agak naik dan berkelok, dari kota Wonosobo sekitar 12 Km ke arah utara. Hanya diperlukan waktu sekitar 30 menit sampai ke lokasi, dengan mengambil jalan ke kiri sebelum sampai di pasar tradisional Garung, sambil menikmati pemandangan dan sejuknya udara perjalanan jadi terasa sangat singkat. Telaga Menjer sangat mudah dijangkau karena berada pada pertengahan jalur wisata Dieng.
-    </span>
-  </div>
+        <div className="px-4">
+          <span className='font-regular text-gray-800'>
+            Untuk mencapai lokasi dapat ditempuh dengan mobil pribadi maupun motor roda dua, jalannya agak naik dan berkelok, dari kota Wonosobo sekitar 12 Km ke arah utara. Hanya diperlukan waktu sekitar 30 menit sampai ke lokasi, dengan mengambil jalan ke kiri sebelum sampai di pasar tradisional Garung, sambil menikmati pemandangan dan sejuknya udara perjalanan jadi terasa sangat singkat. Telaga Menjer sangat mudah dijangkau karena berada pada pertengahan jalur wisata Dieng.
+          </span>
+        </div>
         <div className="flex items-center py-4 px-4">
           <img src={iconTempat} alt="Icon Tempat" className="w-4 h-4" />
           <p className="text-lg text-gray-800 px-4">Dieng, Wonosobo</p>

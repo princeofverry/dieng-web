@@ -5,6 +5,7 @@ import FD2 from '../assets/FD2.png'
 import FD3 from '../assets/FD3.png'
 import FD4 from '../assets/FD4.png'
 import FD5 from '../assets/FD5.png'
+import { Link } from 'react-router-dom';
 
 const FestivalDieng = () => {
     const images = [
@@ -33,7 +34,9 @@ const FestivalDieng = () => {
                 <div className="py-4 sm:w-fit w-screen">
                     <Carousel images={images} />
                 </div>
-                <button className="bg-[#e16a44] px-4 py-2 rounded-lg my-4 text-white">Button</button>
+                <Link to="/Festival">
+                <button className="bg-[#e16a44] px-4 py-2 rounded-lg my-4 text-white">See All</button>
+                </Link>
             </div>
         </>
     )

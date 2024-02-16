@@ -22,7 +22,7 @@ const Destinasi = () => {
   return (
     <div className="">
       <div className="h-screen w-full">
-        <img src={destinasiCover} alt="Background" className="h-screen w-full object-cover" />
+        <img src={menjer} alt="Background" className="h-screen w-full object-cover" />
 
         <div className="absolute top-0 left-0 w-full h-full bg-black opacity-50"></div>
 
