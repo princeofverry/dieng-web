@@ -23,13 +23,13 @@ const DiscoverDieng = () => {
                         <div className="relative md:px-0 px-4 overflow-hidden">
                             <div className="relative group hover:scale-95 transition-all">
                                 <img src={PenginapanDD} className="w-full transition-transform duration-300 transform-gpu group-hover:-rotate-2 filter brightness-50" alt="Destination Image" />
-                                <h1 className="absolute inset-0 flex items-center justify-center text-white drop-shadow-2xl font-bold text-4xl pointer-events-none">PENGINAPAN</h1>
+                                <h1 className="absolute inset-0 flex items-center justify-center text-white drop-shadow-2xl font-bold text-4xl pointer-events-none">ACCOMODATION</h1>
                             </div>
                         </div>
                         <div className="relative md:px-0 px-4 overflow-hidden">
                             <div className="relative group hover:scale-95 transition-all">
                                 <img src={FoodnShopDD} className="w-full transition-transform duration-300 transform-gpu group-hover:rotate-2 filter brightness-50" alt="Destination Image" />
-                                <h1 className="absolute inset-0 flex items-center justify-center text-white drop-shadow-2xl font-bold text-4xl pointer-events-none">FOOD & SHOP</h1>
+                                <h1 className="absolute inset-0 flex items-center justify-center text-white drop-shadow-2xl font-bold text-4xl pointer-events-none">MERCHINARY</h1>
                             </div>
                         </div>
                         <div className="relative md:px-0 px-4 overflow-hidden">

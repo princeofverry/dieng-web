@@ -76,9 +76,9 @@ const Navbar = () => {
                             Accommodation
                         </Link>
                         <Link
-                            to="/Machinery"
-                            onClick={() => handleLinkClick('/Machinery')}
-                            className={`link-underline leading-tight hover:text-[#e16a44] transition-all duration-300 ${activeLink === '/Machinery' ? 'active' : ''}`}
+                            to="/Merchinary"
+                            onClick={() => handleLinkClick('/Merchinary')}
+                            className={`link-underline leading-tight hover:text-[#e16a44] transition-all duration-300 ${activeLink === '/Merchinary' ? 'active' : ''}`}
                         >
                             Merchinary
                         </Link>
@@ -117,7 +117,7 @@ const Navbar = () => {
                     <div className="container mx-auto py-4 flex flex-col items-center">
                         <Link to="/Destinasi" className="block py-2 ">Destination</Link>
                         <Link to="/Penginapan" className="block py-2 ">Accommodation</Link>
-                        <Link to="/Machinery" className="block py-2 ">Machinery</Link>
+                        <Link to="/Merchinary" className="block py-2 ">Merchinary</Link>
                         <Link to="/Festival" className="block py-2 ">Festival</Link>
                         <Link to="/Aboutus" className="block py-2 ">About Us</Link>
                     </div>
