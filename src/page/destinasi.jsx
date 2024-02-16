@@ -44,13 +44,17 @@ const Destinasi = () => {
           {/* Card 1 */}
           <div className="card card-compact bg-base-100 shadow-xl w-full sm:w-96" data-aos="zoom-in" data-aos-duration="1500">
             <div className="card-body flex flex-col items-left">
+            <Link to="/Menjer">
               <figure><img src={menjer} alt="Telaga Menjer" /></figure>
+            </Link>
               <div className="card-title mt-4 ml-4">
                 <p>07.00 - 17.00</p>
               </div>
               <h2 className='sm:text-3xl text-4xl text-left ml-4 mb-6 font-bold'>Telaga Menjer</h2>
               <div className="card-actions mt-2 ml-4 mb-6">
-                <button className="bg-[#E16A44] text-white px-4 py-2 font-bold rounded">SELENGKAPNYA</button>
+                <Link to="/Menjer">
+                  <button className="bg-[#E16A44] text-white px-4 py-2 font-bold rounded">SELENGKAPNYA</button>
+                </Link>
               </div>
             </div>
           </div>

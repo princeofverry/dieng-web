@@ -12,6 +12,7 @@ import Penginapan from './page/penginapan';
 import Aboutus from './page/aboutus';
 import Footer from './components/Footer';
 import Merchinary from './page/merchinary';
+import Menjer from './page/menjer';
 
 // Render komponen dengan React Router v6
 ReactDOM.createRoot(document.getElementById('root')).render(
@@ -22,6 +23,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
         <Route path="/" element={<Homepage />} />
         <Route path="/festival" element={<Festival />} />
         <Route path="/destinasi" element={<Destinasi />} />
+        <Route path="/Menjer" element={<Menjer />} />
         <Route path="/Kirab" element={<Kirab />} />
         <Route path="/Penginapan" element={<Penginapan />} />
         <Route path="/Aboutus" element={<Aboutus />} />
