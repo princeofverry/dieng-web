@@ -11,7 +11,7 @@ const FoodMerchinary = () => {
     return (
         <>
             <h2 className="text-3xl md:text-4xl font-semibold text-[#E16A44] py-8 text-center">Must-eat Foods</h2>
-            <div className="flex flex-wrap justify-center items-center my-4">
+            <div className="flex flex-wrap justify-evenly items-center my-4 md:px-8 px-0">
                 <div className="md:w-1/3 md:h-1/3 w-full p-2">
                     <Link to="/food-details/1">
                         <div className="flex flex-col items-center">
