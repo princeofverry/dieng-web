@@ -2,50 +2,11 @@ import 'aos/dist/aos.css';
 import React, { useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import merchinaryCover from '../assets/merchinaryCover.png';
-import edelweis from '../assets/edelweis.png'
-import kaos from '../assets/kaos.png'
-import syal from '../assets/syal.png'
-import tas from '../assets/tas.png'
-import aksesoris from '../assets/aksesoris.png'
-import belerang from '../assets/belerang.png'
-import miniatur from '../assets/miniatur.png'
 import Boemi from '../assets/boemi.png'
 import maknohan from '../assets/maknohan.png'
 import FoodMerchinary from '../components/foodMerchinary';
+import HaveSouvenirs from '../components/HaveSouvenirs';
 
-const items = [
-  {
-    image: kaos,
-    title: 'Pakaian',
-    description: 'Kaos, jaket, dan jenis pakaian lainnya dengan desain seputar wisata Dieng.',
-  },
-  {
-    image: syal,
-    title: 'Syal dan Kupluk',
-    description: 'Syal dan kupluk rajutan dengan tulisan khas Dieng.',
-  },
-  {
-    image: tas,
-    title: 'Tas Bahu',
-    description: 'Tas bahu buatan tangan dengan desain unik khas Dieng.',
-  },
-  {
-    image: aksesoris,
-    title: 'Aksesoris',
-    description: 'Berbagai aksesoris dengan desain khas Dieng, mulai dari gantungan kunci hingga gelang.',
-  },
-  {
-    image: belerang,
-    title: 'Hiasan Batu Belerang',
-    description: 'Ukiran batu belerang yang diambil langsung dari kawah Sikidang.',
-  },
-  {
-    image: miniatur,
-    title: 'Miniatur',
-    description: 'Miniatur buatan tangan berbagai bentuk, mulai dari domba, candi, hingga sepeda.',
-  },
-  // Tambahkan item lainnya sesuai kebutuhan
-];
 
 const Merchinary = () => {
 
@@ -64,41 +25,11 @@ const Merchinary = () => {
         </div>
       </div>
 
-      {/* Foods section */}
+      {/* Foods section ada di components */}
       <FoodMerchinary />
 
-      {/* suvenir */}
-      <div className="flex justify-center items-center bg-[#F9F9F9]">
-        <div className="w-full md:w-1/2 lg:w-1/3 p-4">
-          <div className="w-full text-center py-4">
-            <h2 className="text-3xl font-bold text-[#E16A44] mb-4">Must-have Souvenirs</h2>
-          </div>
-          <Link to="/details/large-card">
-            <div className="relative rounded-lg">
-              <img src={edelweis} alt="Large Card" className="w-full h-full object-cover mb-4" />
-              <div className="absolute inset-0 flex flex-col justify-end text-white p-4">
-                <h2 className="text-2xl font-bold mb-2">Tanaman Edelweis Mini</h2>
-                <p className="text-sm">Bunga Edelweis dengan bau harum khas yang bisa menjadi hiasan ruangan</p>
-              </div>
-            </div>
-          </Link>
-        </div>
-
-        <div className="w-full md:w-1/2 lg:w-2/3 flex flex-wrap justify-around">
-          {items.map((item, index) => (
-            <div key={index} className="w-full sm:w-1/2 md:w-1/3 p-4" style={{ height: 'calc(100% / 3)' }}>
-              <Link to={`/details/card-${index + 2}`}>
-                <div className="rounded-lg h-full">
-                  <img src={item.image} alt={`Card ${index + 2}`} className="w-full h-full object-cover mb-4" />
-                  <div className="text-center">
-                    <h3 className="text-lg font-bold mb-2 text-[#E16A44]">{item.title}</h3>
-                  </div>
-                </div>
-              </Link>
-            </div>
-          ))}
-        </div>
-      </div>
+      {/* suvenir ada di components*/}
+      <HaveSouvenirs />
 
       {/* dimanaa*/}
       {/* gambar dikiri */}
