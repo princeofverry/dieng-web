@@ -1,11 +1,8 @@
-import 'aos/dist/aos.css';
 import React, { useEffect } from 'react';
-import { Link } from 'react-router-dom';
 import merchinaryCover from '../assets/merchinaryCover.png';
-import Boemi from '../assets/boemi.png'
-import maknohan from '../assets/maknohan.png'
 import FoodMerchinary from '../components/foodMerchinary';
 import HaveSouvenirs from '../components/HaveSouvenirs';
+import WhereToFindIt from '../components/whereToFindIt';
 
 
 const Merchinary = () => {
@@ -31,45 +28,8 @@ const Merchinary = () => {
       {/* suvenir ada di components*/}
       <HaveSouvenirs />
 
-      {/* gambar dikiri */}
-      <div className="mx-auto bg-white flex flex-col justify-center items-center py-4">
-        <h2 className="text-3xl md:text-4xl font-semibold text-[#E16A44] mb-4 px-4 mt-4">Where to find it?</h2>
-        <div className="bg-[#ECECEC] mx-8 mt-12 flex flex-col md:flex-row rounded overflow-hidden">
-          {/* Image Section */}
-          <div className="md:w-1/3 relative">
-            <Link to="/Boemi">
-              <div className="absolute top-0 left-0 w-full h-60"></div>
-              <img src={Boemi} alt="Boemi Dieng" className="w-full h-60 object-cover" />
-            </Link>
-          </div>
-
-          {/* Text Content Section */}
-          <div className="md:w-2/3 md:ml-4 md:pl-4 relative">
-            <h3 className="text-xl md:text-3xl text-[#E16A44] pt-6 font-semibold mb-2">Boemi Dieng</h3>
-            <p className="text-gray-600">Rumah makan dan pusat oleh-oleh khas Dieng Wonosobo termurah dan terlengkap yang menawarkan berbagai souvenir. Boemi Dieng juga memiliki pusat  melayani informasi shuttle bus.</p>
-            <button className="bg-[#E16A44] text-white py-2 px-16 mt-4">Maps</button>
-          </div>
-        </div>
-      </div>
-
-
-      {/* gambar dikanan */}
-      <div className="bg-[#ECECEC] mx-8 my-12 flex flex-col md:flex-row rounded overflow-hidden">
-        {/* Text Content Section */}
-        <div className="md:w-2/3 md:mr-4 md:pr-4 relative text-right">
-          <h3 className="text-xl md:text-3xl text-[#E16A44] pt-6 font-semibold mb-2">MakNohan</h3>
-          <p className="text-gray-600">Pusat oleh-oleh makanan khas Dieng Wonosobo yang menyediakan berbagai jenis oleh-oleh, mulai dari makanan, cemilan, baju, souvenir hingga kain khas dengan harga terjangkau dan kualitas terbaik.</p>
-          <button className="bg-[#E16A44] text-white py-2 px-16 mt-4">Maps</button>
-        </div>
-
-        {/* Image Section */}
-        <div className="md:w-1/3 relative">
-          <Link to="/maknohan">
-            <div className="absolute top-0 left-0 w-full h-60"></div>
-            <img src={maknohan} alt="MakNohan" className="w-full h-60 object-cover" />
-          </Link>
-        </div>
-      </div>
+      {/* gambar dikiri dan kanan*/}
+      <WhereToFindIt />
     </div>
   );
 }
