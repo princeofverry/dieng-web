@@ -49,7 +49,7 @@ const HaveSouvenirs = () => {
                     <div className="w-full text-center md:py-8 py-0">
                         <h2 className="md:text-6xl text-3xl font-semibold tracking-wide text-[#E16A44] text-center md:text-left md:py-4 py-0">Must-have Souvenirs</h2>
                     </div>
-                    <Link to="/details/large-card">
+                    
                         <div className="relative rounded-lg py-4">
                             <img src={edelweis} alt="Large Card" className="w-full h-full object-cover mb-4" />
                             <div className="absolute inset-0 flex flex-col justify-end text-white p-4">
@@ -57,13 +57,13 @@ const HaveSouvenirs = () => {
                                 <p className="text-sm">Bunga Edelweis dengan bau harum khas yang bisa menjadi hiasan ruangan</p>
                             </div>
                         </div>
-                    </Link>
+                
                 </div>
 
                 <div className="w-full md:w-1/2 lg:w-2/3 flex flex-wrap justify-around md:py-16 py-0">
                     {items.map((item, index) => (
                         <div key={index} className="w-full sm:w-1/2 md:w-1/3 p-4" style={{ height: 'calc(100% / 3)' }}>
-                            <Link to={`/details/card-${index + 2}`}>
+                          
                                 <div className="rounded-lg h-full">
                                     <img src={item.image} alt={`Card ${index + 2}`} className="w-full h-full object-cover mb-2" />
                                     <div className="text-center">
@@ -71,7 +71,7 @@ const HaveSouvenirs = () => {
                                         <h3 className="text-xs mb-2 text-[#606060]">{item.description}</h3>
                                     </div>
                                 </div>
-                            </Link>
+                        
                         </div>
                     ))}
                 </div>

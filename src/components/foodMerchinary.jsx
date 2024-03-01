@@ -13,7 +13,7 @@ const FoodMerchinary = () => {
             <h2 className="text-3xl md:text-4xl font-semibold text-[#E16A44] py-8 text-center">Must-eat Foods</h2>
             <div className="flex flex-wrap justify-evenly items-center my-4 md:px-8 px-0">
                 <div className="md:w-1/3 md:h-1/3 w-full p-2">
-                    <Link to="/food-details/1">
+                   
                         <div className="flex flex-col items-center">
                             <img src={carica} alt="Carica" className="w-52 h-52 object-cover rounded-full mb-4" />
                             <div className='px-8'>
@@ -21,10 +21,10 @@ const FoodMerchinary = () => {
                                 <p className="text-sm text-gray-500 text-center">Manisan buah carica yang segar, manis dan lembut</p>
                             </div>
                         </div>
-                    </Link>
+                    
                 </div>
                 <div className="md:w-1/3 md:h-1/3 w-full p-2">
-                    <Link to="/food-details/2">
+                  
                         <div className="flex flex-col items-center">
                             <img src={ongklok} alt="Mie Ongklok" className="w-52 h-52 object-cover rounded-full mb-4" />
                             <div className="px-8">
@@ -32,10 +32,10 @@ const FoodMerchinary = () => {
                                 <p className="text-sm text-gray-500 text-center">Mi rebus dengan kuah kental berkanji yang disebut loh dan disajikan bersama sate sapi, kambing, atau ayam</p>
                             </div>
                         </div>
-                    </Link>
+                    
                 </div>
                 <div className="md:w-1/3 md:h-1/3 w-full p-2">
-                    <Link to="/food-details/3">
+                   
                         <div className="flex flex-col items-center">
                             <img src={kacang} alt="Kacang dieng" className="w-52 h-52 object-cover rounded-full mb-4" />
                             <div className="px-8">
@@ -43,10 +43,10 @@ const FoodMerchinary = () => {
                                 <p className="text-sm text-gray-500 text-center">Kacang tanah yang dipanggang dengan bumbu khas</p>
                             </div>
                         </div>
-                    </Link>
+                   
                 </div>
                 <div className="md:w-1/3 md:h-1/3 w-full p-2">
-                    <Link to="/food-details/4">
+                  
                         <div className="flex flex-col items-center">
                             <img src={jamur} alt="Keripik Jamur" className="w-52 h-52 object-cover rounded-full mb-4" />
                             <div className="px-8">
@@ -54,10 +54,10 @@ const FoodMerchinary = () => {
                                 <p className="text-sm text-gray-500 text-center">Keripik dari jamur kancing yang digoreng dan diberi bumbu khas</p>
                             </div>
                         </div>
-                    </Link>
+                  
                 </div>
                 <div className="md:w-1/3 md:h-1/3 w-full p-2">
-                    <Link to="/food-details/5">
+                   
                         <div className="flex flex-col items-center">
                             <img src={tempe} alt="Tempe Kemul" className="w-52 h-52 object-cover rounded-full mb-4" />
                             <div className="px-8">
@@ -66,10 +66,10 @@ const FoodMerchinary = () => {
                                     Tempe goreng dibalut gandum dan campuran tepung singkong serta beras, biasanya dengan daun kucai.</p>
                             </div>
                         </div>
-                    </Link>
+                   
                 </div>
                 <div className="md:w-1/3 md:h-1/3 w-full p-2">
-                    <Link to="/food-details/6">
+                    
                         <div className="flex flex-col items-center">
                             <img src={buntil} alt="Buntil Singkong" className="w-52 h-52 object-cover rounded-full mb-4" />
                             <div className="px-8">
@@ -77,7 +77,7 @@ const FoodMerchinary = () => {
                                 <p className="text-sm text-gray-500 text-center">Bungkusan talas atau daun singkong yang berisi parutan kelapa dan bumbu pedas yang terbuat dari santan.</p>
                             </div>
                         </div>
-                    </Link>
+                 
                 </div>
             </div>
         </>

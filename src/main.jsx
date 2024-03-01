@@ -13,6 +13,7 @@ import Aboutus from './page/aboutus';
 import Footer from './components/Footer';
 import Merchinary from './page/merchinary';
 import Menjer from './page/menjer';
+import Carica from './page/carica';
 
 // Render komponen dengan React Router v6
 ReactDOM.createRoot(document.getElementById('root')).render(
@@ -28,6 +29,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
         <Route path="/Penginapan" element={<Penginapan />} />
         <Route path="/Aboutus" element={<Aboutus />} />
         <Route path="/Merchinary" element={<Merchinary />} />
+        <Route path="/Carica" element={<Carica />} />
         {/* Tambahkan rute lain jika diperlukan */}
       </Routes>
       <Footer />
