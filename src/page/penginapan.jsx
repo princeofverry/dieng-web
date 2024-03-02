@@ -8,7 +8,7 @@ import Star19 from "../assets/Star19.png";
 import people2 from "../assets/people2.png";
 import Bathtub from "../assets/Bathtub.png";
 import bed from "../assets/Bed.png";
-import shower from "../assets/shower.png";
+import shower from "../assets/Shower.png";
 import breakfast from "../assets/breakfast.png";
 
 const Penginapan = () => {
