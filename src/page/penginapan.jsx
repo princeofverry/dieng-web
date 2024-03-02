@@ -29,7 +29,7 @@ const Penginapan = () => {
         <div className="absolute top-0 left-0 w-full h-full bg-black opacity-30"></div>
 
         <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center">
-          <h1 className='sm:text-6xl text-4xl text-center text-white font-bold' data-aos="zoom-in" data-aos-anchor-placement="bottom-bottom" data-aos-duration="700">
+          <h1 className='sm:text-5xl text-4xl text-center text-white font-bold' data-aos="zoom-in" data-aos-anchor-placement="bottom-bottom" data-aos-duration="700">
             Rest Comfortably in Dieng
           </h1>
         </div>

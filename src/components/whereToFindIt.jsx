@@ -22,7 +22,7 @@ const WhereToFindIt = () => {
                         <h3 className="text-xl md:text-3xl text-[#E16A44] md:text-left text-center pt-6 font-semibold mb-2">Boemi Dieng</h3>
                         <p className="text-gray-600 text-justify px-4 md:px-0">Rumah makan dan pusat oleh-oleh khas Dieng Wonosobo termurah dan terlengkap yang menawarkan berbagai souvenir. Boemi Dieng juga memiliki pusat  melayani informasi shuttle bus.</p>
                         <div className="flex md:justify-start justify-center md:items-end items-center mb-4">
-                            <button className="bg-[#E16A44] text-white py-2 px-16 md:mt-8 mt-4">Maps</button>
+                            <button className="bg-[#E16A44] rounded-md text-white py-2 px-16 md:mt-8 mt-4">Maps</button>
                         </div>
                     </div>
                 </div>
@@ -37,7 +37,7 @@ const WhereToFindIt = () => {
                     <h3 className="text-xl md:text-3xl text-[#E16A44] pt-6 font-semibold mb-2 md:text-right text-center">MakNohan</h3>
                     <p className="text-gray-600 md:text-right text-justify px-4 md:px-0">Pusat oleh-oleh makanan khas Dieng Wonosobo yang menyediakan berbagai jenis oleh-oleh, mulai dari makanan, cemilan, baju, souvenir hingga kain khas dengan harga terjangkau dan kualitas terbaik.</p>
                     <div className="flex md:justify-end justify-center md:items-end items-center mb-4">
-                        <button className="bg-[#E16A44] text-white py-2 px-16 md:mt-8 mt-4">Maps</button>
+                        <button className="bg-[#E16A44] text-white rounded-md py-2 px-16 md:mt-8 mt-4">Maps</button>
                     </div>
                 </div>
 

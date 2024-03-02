@@ -60,7 +60,7 @@ const CarouselPenginapan = ({ images }) => {
                                     <span className="ml-2 text-base text-gray-600">{image.rating}</span> {/* Tampilkan rating angka */}
                                 </div>
                                 <p className="text-base text-[#606060]">{image.harga}</p>
-                                <button className="bg-[#E16A44] px-6 py-2 text-white font-semibold text-sm">See More</button>
+                                <button className="bg-[#E16A44] px-6 py-2 rounded-md text-white font-semibold text-sm">See More</button>
                             </div>
                         </div>
                     ))}

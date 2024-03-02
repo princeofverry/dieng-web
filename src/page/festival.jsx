@@ -21,7 +21,7 @@ const Festival = () => {
         <div className="absolute top-0 left-0 w-full h-full bg-black opacity-50"></div>
 
         <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center">
-          <h1 className='sm:text-6xl text-4xl text-center text-white font-bold' data-aos="zoom-in" data-aos-anchor-placement="bottom-bottom" data-aos-duration="700">
+          <h1 className='sm:text-5xl text-2xl text-center text-white font-bold' data-aos="zoom-in" data-aos-anchor-placement="bottom-bottom" data-aos-duration="700">
             The Charming Side of Dieng
           </h1>
           <p className='sm:text-6xl text-4xl text-white font-semibold' data-aos="zoom-in" data-aos-duration="1000">...</p>
@@ -92,7 +92,7 @@ const Festival = () => {
           <div className="md:w-2/3 md:ml-4 md:pl-4 relative">
             <h3 className="text-xl md:text-3xl text-[#E16A44] pt-6 font-semibold mb-2">KIRAB BUDAYA</h3>
             <h3 className="text-sm font-medium md:text-lg mb-2">5 Feb 2024 <span className="font-normal">🕗 07.00 WIB</span></h3>
-            <p className="text-gray-600">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos dicta aperiam tempore tempora magnam! Hic velit ipsam molestiae. Ipsa, assumenda!</p>
+            <p className="text-gray-600">Kirab Budaya adalah perayaan yang mempromosikan dan memperingati warisan budaya suatu daerah melalui parade atau prosesi dengan pakaian adat dan seni tradisional.</p>
 
             {/* Details Link */}
             <div className="absolute sm:bottom-6 bottom-0 right-4">
@@ -121,8 +121,8 @@ const Festival = () => {
           {/* Text Content Section */}
           <div className="md:w-2/3 md:ml-4 md:pl-4 relative">
             <h3 className="text-xl md:text-3xl text-[#E16A44] pt-6 font-semibold mb-2">RUWATAN</h3>
-            <h3 className="text-sm md:text-lg mb-2">5 Feb 2024 🕗 07.00 WIB</h3>
-            <p className="text-gray-600">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos dicta aperiam tempore tempora magnam! Hic velit ipsam molestiae. Ipsa, assumenda!</p>
+            <h3 className="text-sm font-medium md:text-lg mb-2">5 Feb 2024 <span className="font-normal">🕗 07.00 WIB</span></h3>
+            <p className="text-gray-600">Ruwatan adalah ritual Jawa untuk membersihkan diri secara spiritual dan memperoleh perlindungan dari hal-hal buruk, biasanya dilakukan dengan persembahan kepada dewa atau roh.</p>
 
             {/* Details Link */}
             <div className="absolute sm:bottom-6 bottom-0 right-4">
@@ -148,8 +148,8 @@ const Festival = () => {
           {/* Text Content Section */}
           <div className="md:w-2/3 md:ml-4 md:pl-4 relative">
             <h3 className="text-xl md:text-3xl text-[#E16A44] pt-6 font-semibold mb-2">BARITAN</h3>
-            <h3 className="text-sm md:text-lg mb-2">5 Feb 2024 🕗 07.00 WIB</h3>
-            <p className="text-gray-600">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos dicta aperiam tempore tempora magnam! Hic velit ipsam molestiae. Ipsa, assumenda!</p>
+            <h3 className="text-sm font-medium md:text-lg mb-2">5 Feb 2024 <span className="font-normal">🕗 07.00 WIB</span></h3>
+            <p className="text-gray-600">Baritan adalah tradisi perjalanan kelompok dari satu desa ke desa lain, sering kali diiringi oleh musik tradisional dan acara keagamaan, memperkuat hubungan sosial di antara masyarakat.</p>
 
             {/* Details Link */}
             <div className="absolute sm:bottom-6 bottom-0 right-4">
@@ -175,8 +175,8 @@ const Festival = () => {
           {/* Text  */}
           <div className="md:w-2/3 md:ml-4 md:pl-4 relative">
             <h3 className="text-xl md:text-3xl text-[#E16A44] pt-6 font-semibold mb-2">FESTIVAL LAMPION</h3>
-            <h3 className="text-sm md:text-lg mb-2">5 Feb 2024 🕗 07.00 WIB</h3>
-            <p className="text-gray-600">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos dicta aperiam tempore tempora magnam! Hic velit ipsam molestiae. Ipsa, assumenda!</p>
+            <h3 className="text-sm font-medium md:text-lg mb-2">5 Feb 2024 <span className="font-normal">🕗 07.00 WIB</span></h3>
+            <p className="text-gray-600">Festival Lampion merayakan keindahan dan keceriaan dengan memamerkan lampion-lampion indah di malam hari, seringkali disertai dengan pertunjukan musik, tarian, dan pameran kuliner.</p>
 
             {/* Details Link */}
             <div className="absolute sm:bottom-6 bottom-0 right-4">
