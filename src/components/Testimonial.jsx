@@ -6,19 +6,19 @@ const Testimonial = () => {
 
     const testimonials = [
         {
-            text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos, quas necessitatibus. Ipsam est tempore illum autem, consequatur ratione nobis soluta sint animi vel, quisquam ad corporis ea architecto, veritatis fugit.",
+            text: "Dieng, tempat yang sungguh indah! Alamnya memukau, budayanya mempesona. Terima kasih, Dieng!",
             author: "Go younjung"
         },
         {
-            text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos, quas necessitatibus. Ipsam est tempore illum autem, consequatur ratione nobis soluta sint animi vel, quisquam ad corporis ea architecto, veritatis fugit.",
+            text: "Dieng tak hanya tentang gunung dan danau, tapi juga tentang kehangatan penduduknya. Saya sangat terkesan dengan pengalaman saya di sini.",
             author: "Jihyo"
         },
         {
-            text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos, quas necessitatibus. Ipsam est tempore illum autem, consequatur ratione nobis soluta sint animi vel, quisquam ad corporis ea architecto, veritatis fugit.",
+            text: "Petualangan di Dieng adalah pengalaman yang tak terlupakan. Dari puncak Gunung Prau hingga ke kawah-kawahnya, semuanya luar biasa!",
             author: "Bambang"
         },
         {
-            text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos, quas necessitatibus. Ipsam est tempore illum autem, consequatur ratione nobis soluta sint animi vel, quisquam ad corporis ea architecto, veritatis fugit.",
+            text: "Saya jatuh cinta pada kuliner Dieng! Rasanya autentik dan menggugah selera. Pasti akan kembali!",
             author: "Edi"
         }
     ];

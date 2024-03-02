@@ -16,7 +16,7 @@ const Maps = () => {
                         </h1>
                         {/* lorem 90 kata */}
                         <p className='text-black sm:text-base text-sm sm:text-balance text-justify mt-4 lg:px-0 px-4 md:pt-8 pt-0' >
-                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nihil iusto rerum vel minus perferendis corporis dicta nostrum ratione. Fugit nihil quibusdam laudantium iste reprehenderit dolor excepturi fugiat tempora quam cupiditate iure neque, ipsum expedita id minima molestiae delectus atque eligendi dolores. Soluta quos, nam in corrupti odio, vero obcaecati quo autem animi vitae praesentium non omnis iure commodi blanditiis delectus? At libero officia optio cupiditate culpa facere dignissimos incidunt numquam quibusdam eum minus ipsam architecto praesentium neque repellat, quasi alias est quae omnis aliquid. Dolorum vero odio tempore cum nulla?
+                            Tenggelamlah dalam keajaiban Dieng, di mana gunung-gunung menjulang gagah memeluk langit biru, dan lembah-lembahnya mengalir dengan sungai-sungai yang menyejukkan. Di setiap tikungan jalan, ada cerita yang terpahat dalam bebatuan kuno, dan setiap hembusan angin membawa aroma segar dari alam yang masih murni. Dieng bukan sekadar peta, tapi sebuah kanvas yang memikat hati, mengundang petualangan tanpa batas dan keindahan yang tak terlupakan.
                         </p>
                     </div>
                     <iframe

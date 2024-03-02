@@ -23,7 +23,8 @@ const DiengBanjarnegara = () => {
                         </h1>
                         {/* lorem 90 kata */}
                         <p className='text-black sm:text-base text-sm sm:text-balance text-justify mt-4 lg:px-0 px-4 md:pt-8 pt-0' >
-                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nihil iusto rerum vel minus perferendis corporis dicta nostrum ratione. Fugit nihil quibusdam laudantium iste reprehenderit dolor excepturi fugiat tempora quam cupiditate iure neque, ipsum expedita id minima molestiae delectus atque eligendi dolores. Soluta quos, nam in corrupti odio, vero obcaecati quo autem animi vitae praesentium non omnis iure commodi blanditiis delectus? At libero officia optio cupiditate culpa facere dignissimos incidunt numquam quibusdam eum minus ipsam architecto praesentium neque repellat, quasi alias est quae omnis aliquid. Dolorum vero odio tempore cum nulla?
+
+                            Dieng, sebuah perhentian indah di Jawa Tengah yang menawarkan pesona alamnya yang memesona. Dikelilingi oleh pegunungan yang megah, Dieng menghadirkan pemandangan yang menakjubkan dengan kawah-kawah vulkaniknya dan danau-danau yang memukau. Budaya lokal yang kaya warna juga memperkaya pengalaman wisata, sementara Gunung Prau menantang para pendaki dengan keindahan puncaknya. Selain itu, wisatawan dapat menikmati kuliner khas yang lezat, menjadikan perjalanan mereka di Dieng sebagai pengalaman yang tak terlupakan dalam keindahan alam dan keberagaman budaya yang ditawarkannya.
                         </p>
                     </div>
                 </div>
