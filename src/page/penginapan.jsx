@@ -1,18 +1,17 @@
-import AOS from 'aos';
-import 'aos/dist/aos.css';
 import React, { useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import penginapanCover from '../assets/penginapanCover.png';
-import lampion from '../assets/lampion.png';
-import ruwatan from '../assets/ruwatan.png';
-import baritan from '../assets/baritan.png';
-import kirabBudaya from '../assets/kirabBudaya.png';
+import penginapan2 from '../assets/penginapan2.jpeg';
+import penginapan4 from '../assets/penginapan4.jpeg';
+import penginapan3 from '../assets/penginapan3.jpeg';
+import Star19 from "../assets/Star19.png";
+import people2 from "../assets/people2.png";
+import Bathtub from "../assets/Bathtub.png";
+import bed from "../assets/bed.png";
+import shower from "../assets/shower.png";
+import breakfast from "../assets/breakfast.png";
 
 const Penginapan = () => {
-  // Initialize AOS on component mount
-  useEffect(() => {
-    AOS.init();
-  }, []);
   return (
     <div className="">
       <div className="h-screen w-full">
@@ -25,7 +24,6 @@ const Penginapan = () => {
             Rest Comfortably in Dieng
           </h1>
         </div>
-
       </div>
 
       <div className="p-4 sm:p-8 md:mx-auto bg-[#F9F9F9]" data-aos="fade-right" data-aos-duration="1000">
@@ -36,26 +34,24 @@ const Penginapan = () => {
             <div className="flex items-center mb-2 md:mb-0">
               <span className="font-regular text-gray-800 md:text-lg">Sort By:</span>
             </div>
-            <div className="flex items-center space-x-4 flex-wrap">
+            <div className="flex flex-wrap md:flex-row items-center space-x-4">
               <div className="flex items-center space-x-2 mb-2 md:mb-0">
                 <div className="border border-#271E1B p-2 rounded-md px-4">
-                  <span className="text-gray-600">Price</span>
+                  <span className="text-gray-600">Harga</span>
                   <span className="text-[#271E1B] transform rotate-90 ml-1 inline-block px-1">&#8250;</span>
                 </div>
               </div>
-
               <div className="flex items-center space-x-4 mb-2 md:mb-0">
                 <div className="flex items-center space-x-2">
                   <div className="border border-#271E1B p-2 rounded-md px-4">
-                    <span className="text-gray-600">Rate</span>
+                    <span className="text-gray-600">Rating</span>
                     <span className="text-[#271E1B] transform rotate-90 ml-1 inline-block px-1">&#8250;</span>
                   </div>
                 </div>
               </div>
-
               <div className="flex items-center space-x-4 mb-2 md:mb-0">
                 <div className="flex items-center space-x-2">
-                  <div className="border border-#271E1B p-2 rounded-md px-16">
+                  <div className="border border-#271E1B p-2 rounded-md px-9">
                     <span className="text-gray-600">Masukkan Teks</span>
                   </div>
                 </div>
@@ -64,79 +60,163 @@ const Penginapan = () => {
           </nav>
         </div>
 
-        {/* Golden Orchid */}
+        {/* GOLDEN ORCHID */}
         <div className="bg-white mb-8 flex flex-col md:flex-row rounded overflow-hidden"
           data-aos="fade-up"
           data-aos-anchor-placement="top-bottom"
           data-aos-duration="1000">
           {/* Image Section */}
-          <div className="md:w-1/4 relative">
-              <div className="absolute top-0 left-0 w-full h-60 gradient-overlay" style={{ background: 'linear-gradient(to top, rgba(255, 255, 255, 0.8) 0%, rgba(255, 255, 255, 0) 20%, rgba(0, 0, 0, 0.5) 100%)' }}></div>
+          <div className="md:w-2/6 relative">
               <div className="absolute top-0 left-0 w-full h-60 gradient-overlay"></div>
-              <img src={kirabBudaya} alt="Festival Lampion" className="w-full h-60 object-cover rounded" />
+              <div className="absolute top-0 left-0 w-full h-60 gradient-overlay"></div>
+              <img src={penginapan3} alt="Golden Orchid Villa" className="w-full h-full object-cover rounded" />
           </div>
           {/* Text Content Section */}
-          <div className="md:w-2/3 md:ml-4 md:pl-4 relative">
-            <h3 className="text-xl md:text-3xl text-[#E16A44] pt-6 font-semibold mb-2">GOLDEN ORCHID VILLA</h3>
-            <h3 className="text-sm font-medium md:text-lg mb-2">5 Feb 2024 <span className="font-normal">🕗 07.00 WIB</span></h3>
-            <p className="text-gray-600">Kirab Budaya adalah perayaan yang mempromosikan dan memperingati warisan budaya suatu daerah melalui parade atau prosesi dengan pakaian adat dan seni tradisional.</p>
-            {/* Details Link */}
-            <div className="absolute sm:bottom-6 bottom-0 right-4">
-              <Link to="/Kirab" className="text-500 cursor-pointer">See Details &#8250;</Link>
+          <div className="md:w-3/6 relative">
+            <div className="md:ml-4 md:pl-4 relative text-justify pl-4">
+              <h3 className="text-xl md:text-3xl text-[#E16A44] pt-6 font-semibold mb-2">GOLDEN ORCHID VILLA</h3>
+              <h3 className="text-sm font-medium md:text-lg mb-2">Villa</h3>
+              <p className="text-gray-600 pb-8 pr-8">Penginapan keluarga yang berlokasi di kawasan wisata dieng desa Karang sari, Kecamatan Batur, Kabupaten Banjarnegara. Golden Orchid menawarkan dua jenis penginapan, yaitu villa segitiga dan villa joglo dengan pemandangan bukit dan landscape pedesaan yang luar biasa yang dapat memanjakan mata.</p>
+              <div className="flex items-center">
+                <img src={Star19} alt="rating golden orchid" width={22} height={22}/>
+                <h3 className="text-sm font-medium md:text-base pt-0 pl-3 text-[#E16A44]"> 4.8 (8,030)</h3>
+              </div>
+              <h3 className="text-sm font-semibold md:text-lg pt-2 text-[#E16A44]"> IDR 700.000,00</h3>
+              {/* Maps Link */}
+              <div className="card-actions mt-8 mb-4">
+                <a href="https://maps.app.goo.gl/GTvZjR7uN4juRnoU8" target="_blank" rel="noopener noreferrer">
+                  <button className="bg-[#E16A44] text-white px-8 py-2 font-medium rounded">Maps</button>
+                </a>
+              </div>
+            </div>
+          </div>
+          {/* information section*/}
+          <div className="md:w-1/6 relative bg-[#ECECEC] pl-8 pb-8 pt-8">
+            <div className="flex items-center pt-6">
+              <img src={people2} alt="people golden orchid" width={22} height={22}/>
+              <h3 className="text-sm font-medium md:text-base pl-3 text-[#606060]"> 5-6 People</h3>
+            </div>
+            <div className="flex items-center pt-6">
+              <img src={bed} alt="bed golden orchid" width={22} height={22}/>
+              <h3 className="text-sm font-medium md:text-base pl-3 text-[#606060]"> 3 Bedroom</h3>
+            </div>
+            <div className="flex items-center pt-6">
+              <img src={Bathtub} alt="bathroom golden orchid" width={22} height={22}/>
+              <h3 className="text-sm font-medium md:text-base pl-3 text-[#606060]"> 2 Bathroom</h3>
+            </div>
+            <div className="flex items-center pt-12">
+              <img src={shower} alt="water heater golden orchid" width={22} height={22}/>
+              <h3 className="text-sm font-medium md:text-base pl-3 text-[#606060]"> Water heater</h3>
+            </div>
+            <div className="flex items-center pt-6">
+              <img src={breakfast} alt="breakfast golden orchid" width={22} height={22}/>
+              <h3 className="text-sm font-medium md:text-base pl-3 text-[#606060]"> Breakfast</h3>
             </div>
           </div>
         </div>
 
-        {/* RUWATAN */}
+        {/* THE MOBY PARK */}
         <div className="bg-white mb-8 flex flex-col md:flex-row rounded overflow-hidden"
           data-aos="fade-up"
           data-aos-anchor-placement="top-bottom"
           data-aos-duration="1000">
           {/* Image Section */}
-          <div className="md:w-1/3 relative">
-            <Link to="/Kirab">
-              <div className="absolute top-0 left-0 w-full h-60 gradient-overlay" style={{ background: 'linear-gradient(to top, rgba(255, 255, 255, 0.8) 0%, rgba(255, 255, 255, 0) 20%, rgba(0, 0, 0, 0.5) 100%)' }}></div>
+          <div className="md:w-2/6 relative">
               <div className="absolute top-0 left-0 w-full h-60 gradient-overlay"></div>
-              <img src={ruwatan} alt="Festival Lampion" className="w-full h-60 object-cover rounded" />
-            </Link>
+              <div className="absolute top-0 left-0 w-full h-60 gradient-overlay"></div>
+              <img src={penginapan2} alt="Golden Orchid Villa" className="w-full h-full object-cover rounded" />
           </div>
-
           {/* Text Content Section */}
-          <div className="md:w-2/3 md:ml-4 md:pl-4 relative">
-            <h3 className="text-xl md:text-3xl text-[#E16A44] pt-6 font-semibold mb-2">RUWATAN</h3>
-            <h3 className="text-sm font-medium md:text-lg mb-2">5 Feb 2024 <span className="font-normal">🕗 07.00 WIB</span></h3>
-            <p className="text-gray-600">Ruwatan adalah ritual Jawa untuk membersihkan diri secara spiritual dan memperoleh perlindungan dari hal-hal buruk, biasanya dilakukan dengan persembahan kepada dewa atau roh.</p>
-
-            {/* Details Link */}
-            <div className="absolute sm:bottom-6 bottom-0 right-4">
-              <Link to="/Kirab" className="text-500 cursor-pointer">See Details &#8250;</Link>
+          <div className="md:w-3/6 relative">
+            <div className="md:ml-4 md:pl-4 relative text-justify pl-4">
+              <h3 className="text-xl md:text-3xl text-[#E16A44] pt-6 font-semibold mb-2">THE MOBY PARK</h3>
+              <h3 className="text-sm font-medium md:text-lg mb-2">Glamping</h3>
+              <p className="text-gray-600 pb-8 pr-8">Glamping ground yang berlokasi di kawasan perkebunan teh Bedakah, Kertek, Wonosobo. The Moby Park bisa disebut tempat yang strategis karena dekat dengan berbagai wisata seru seperti Telaga Bedakah, Gunung Sindoro, dan Gunung Cilik Kaliurip.</p>
+              <div className="flex items-center">
+                <img src={Star19} alt="rating moby park" width={22} height={22}/>
+                <h3 className="text-sm font-medium md:text-base pt-0 pl-3 text-[#E16A44]"> 4.7 (6,017)</h3>
+              </div>
+              <h3 className="text-sm font-semibold md:text-lg pt-2 text-[#E16A44]"> IDR 500.000,00</h3>
+              {/* Maps Link */}
+              <div className="card-actions mt-8 mb-4">
+                <a href="https://maps.app.goo.gl/dgrKU5pnkKqk57hD8" target="_blank" rel="noopener noreferrer">
+                  <button className="bg-[#E16A44] text-white px-8 py-2 font-medium rounded">Maps</button>
+                </a>
+              </div>
+            </div>
+          </div>
+          {/* information section*/}
+          <div className="md:w-1/6 relative bg-[#ECECEC] pl-8 pb-8 pt-8">
+            <div className="flex items-center pt-6">
+              <img src={people2} alt="people moby park" width={22} height={22}/>
+              <h3 className="text-sm font-medium md:text-base pl-3 text-[#606060]"> 2-3 People</h3>
+            </div>
+            <div className="flex items-center pt-6">
+              <img src={Bathtub} alt="bathroom moby park" width={22} height={22}/>
+              <h3 className="text-sm font-medium md:text-base pl-3 text-[#606060]"> private Bathroom</h3>
+            </div>
+            <div className="flex items-center pt-12">
+              <img src={shower} alt="water heater moby park" width={22} height={22}/>
+              <h3 className="text-sm font-medium md:text-base pl-3 text-[#606060]"> Water heater</h3>
+            </div>
+            <div className="flex items-center pt-6">
+              <img src={breakfast} alt="breakfast moby park" width={22} height={22}/>
+              <h3 className="text-sm font-medium md:text-base pl-3 text-[#606060]"> Breakfast</h3>
             </div>
           </div>
         </div>
 
-        {/* BARITAN */}
+        {/* MADINNA VILLA */}
         <div className="bg-white mb-8 flex flex-col md:flex-row rounded overflow-hidden"
           data-aos="fade-up"
           data-aos-anchor-placement="top-bottom"
           data-aos-duration="1000">
           {/* Image Section */}
-          <div className="md:w-1/3 relative">
-            <Link to="/Kirab">
-              <div className="absolute top-0 left-0 w-full h-60 gradient-overlay" style={{ background: 'linear-gradient(to top, rgba(255, 255, 255, 0.8) 0%, rgba(255, 255, 255, 0) 20%, rgba(0, 0, 0, 0.5) 100%)' }}></div>
+          <div className="md:w-2/6 relative">
               <div className="absolute top-0 left-0 w-full h-60 gradient-overlay"></div>
-              <img src={baritan} alt="Festival Lampion" className="w-full h-60 object-cover rounded" />
-            </Link>
+              <div className="absolute top-0 left-0 w-full h-60 gradient-overlay"></div>
+              <img src={penginapan4} alt="Golden Orchid Villa" className="w-full h-full object-cover rounded" />
           </div>
-
           {/* Text Content Section */}
-          <div className="md:w-2/3 md:ml-4 md:pl-4 relative">
-            <h3 className="text-xl md:text-3xl text-[#E16A44] pt-6 font-semibold mb-2">BARITAN</h3>
-            <h3 className="text-sm font-medium md:text-lg mb-2">5 Feb 2024 <span className="font-normal">🕗 07.00 WIB</span></h3>
-            <p className="text-gray-600">Baritan adalah tradisi perjalanan kelompok dari satu desa ke desa lain, sering kali diiringi oleh musik tradisional dan acara keagamaan, memperkuat hubungan sosial di antara masyarakat.</p>
-
-            {/* Details Link */}
-            <div className="absolute sm:bottom-6 bottom-0 right-4">
-              <Link to="/Kirab" className="text-500 cursor-pointer">See Details &#8250;</Link>
+          <div className="md:w-3/6 relative">
+            <div className="md:ml-4 md:pl-4 relative text-justify pl-4">
+              <h3 className="text-xl md:text-3xl text-[#E16A44] pt-6 font-semibold mb-2">MADINNA VILLA</h3>
+              <h3 className="text-sm font-medium md:text-lg mb-2">Villa</h3>
+              <p className="text-gray-600 pb-8 pr-8">Penginapan keluarga yang terletak di sebelah Bima Candi di kawasan wisata dieng. Madinna Villa menawarkan lokasi yang sempunra karena hanya berjarak 1 km dari Telaga Pengilon dan 12 menit ke Candi Arjuna serta Kawah Sikidang dengan berjalan kaki.</p>
+              <div className="flex items-center">
+                <img src={Star19} alt="rating madinna" width={22} height={22}/>
+                <h3 className="text-sm font-medium md:text-base pt-0 pl-3 text-[#E16A44]"> 4.6 (5,233)</h3>
+              </div>
+              <h3 className="text-sm font-semibold md:text-lg pt-2 text-[#E16A44]"> IDR 600.000,00</h3>
+              {/* Maps Link */}
+              <div className="card-actions mt-8 mb-4">
+                <a href="https://maps.app.goo.gl/XafTpFKRbn3KFhCk7" target="_blank" rel="noopener noreferrer">
+                  <button className="bg-[#E16A44] text-white px-8 py-2 font-medium rounded">Maps</button>
+                </a>
+              </div>
+            </div>
+          </div>
+          {/* information section*/}
+          <div className="md:w-1/6 relative bg-[#ECECEC] pl-8 pb-8 pt-8">
+            <div className="flex items-center pt-6">
+              <img src={people2} alt="people madinna" width={22} height={22}/>
+              <h3 className="text-sm font-medium md:text-base pl-3 text-[#606060]"> 3-4 People</h3>
+            </div>
+            <div className="flex items-center pt-6">
+              <img src={bed} alt="bed madinna" width={22} height={22}/>
+              <h3 className="text-sm font-medium md:text-base pl-3 text-[#606060]"> 2 Bedroom</h3>
+            </div>
+            <div className="flex items-center pt-6">
+              <img src={Bathtub} alt="bathroom madinna" width={22} height={22}/>
+              <h3 className="text-sm font-medium md:text-base pl-3 text-[#606060]"> 1 Bathroom</h3>
+            </div>
+            <div className="flex items-center pt-12">
+              <img src={shower} alt="water heater madinna" width={22} height={22}/>
+              <h3 className="text-sm font-medium md:text-base pl-3 text-[#606060]"> Water heater</h3>
+            </div>
+            <div className="flex items-center pt-6">
+              <img src={breakfast} alt="breakfast madinna" width={22} height={22}/>
+              <h3 className="text-sm font-medium md:text-base pl-3 text-[#606060]"> Breakfast</h3>
             </div>
           </div>
         </div>
