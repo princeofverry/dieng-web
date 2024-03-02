@@ -13,12 +13,14 @@ import Aboutus from './page/aboutus';
 import Footer from './components/Footer';
 import Merchinary from './page/merchinary';
 import Menjer from './page/menjer';
+import ScrollToTop from './components/ScrollToTop';
 
 
 // Render komponen dengan React Router v6
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <Router>
+      <ScrollToTop />
       <Navbar />
       <Routes>
         <Route path="/" element={<Homepage />} />
