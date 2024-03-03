@@ -51,8 +51,10 @@ const Menjer = () => {
           <img src={iconTiket} alt="Icon Tiket" className="w-4 h-4" />
           <p className="text-lg text-gray-800 px-4">Rp5.000,00</p>
         </div>
-        <div class="bg-[#E16A44] text-white p-2 mx-4 inline-block rounded-md">
-          <span class="text-lg">Penunjuk Arah / map &#10140;</span>
+        <div class="bg-[#E16A44] text-white px-6 mx-4 py-2 inline-block rounded-md">
+          <a href="https://maps.app.goo.gl/cAFZBoZDj88tauNN7" target="_blank" rel="noopener noreferrer">
+            <span class="text-lg"> Maps &#10140;</span>
+          </a>
         </div>
       </div>
       </div>
