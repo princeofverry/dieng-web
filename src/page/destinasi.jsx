@@ -35,9 +35,9 @@ const Destinasi = () => {
       </div>
 
       <div className="md:mx-auto bg-[#F9F9F9]">
-        <h2 className="text-3xl md:text-4xl font-semibold text-[#E16A44] mb-4 px-4 mt-4" data-aos="zoom-in" data-aos-duration="1000">FIND YOUR DESTINATION RIGHT NOW!</h2>
-        <div className="flex items-center mb-2 md:mb-0 px-4">
-          <span className="font-regular text-gray-800" data-aos="zoom-in" data-aos-duration="1000">Berikut adalah daftar destinasi yang tersedia dengan harga yang bersahabat, silahkan pilih sesuai keinginan</span>
+        <h2 className="text-3xl md:text-4xl font-semibold text-[#E16A44] mb-4 px-4 mt-8 text-center" data-aos="zoom-in" data-aos-duration="1000">FIND YOUR DESTINATION RIGHT NOW!</h2>
+        <div className="flex items-center justify-center mb-2 md:mb-0 px-4">
+          <span className="font-regular text-gray-800 text-center" data-aos="zoom-in" data-aos-duration="1000">Daftar destinasi Dieng dengan harga yang bersahabat, silahkan pilih sesuai keinginan</span>
         </div>
 
         <div className="flex flex-wrap md:gap-16 gap-4 justify-center items-center mt-8 px-4">
@@ -50,10 +50,10 @@ const Destinasi = () => {
               <div className="card-title mt-4 ml-4">
                 <p>07.00 - 17.00</p>
               </div>
-              <h2 className='sm:text-3xl text-4xl text-left ml-4 mb-6 font-bold'>Telaga Menjer</h2>
+              <h2 className='sm:text-2xl text-4xl text-left ml-4 mb-6 font-bold'>Telaga Menjer</h2>
               <div className="card-actions mt-2 ml-4 mb-6">
                 <Link to="/Menjer">
-                  <button className="bg-[#E16A44] text-white px-4 py-2 font-bold rounded">SELENGKAPNYA</button>
+                  <button className="bg-[#E16A44] text-white px-4 py-2 font-bold rounded text-sm">SELENGKAPNYA</button>
                 </Link>
               </div>
             </div>
@@ -66,9 +66,9 @@ const Destinasi = () => {
               <div className="card-title mt-4 ml-4">
                 <p>07.00 - 17.00</p>
               </div>
-              <h2 className='sm:text-3xl text-4xl text-left ml-4 mb-6 font-bold'>Kawah Sikidang</h2>
+              <h2 className='sm:text-2xl text-4xl text-left ml-4 mb-6 font-bold'>Kawah Sikidang</h2>
               <div className="card-actions mt-2 ml-4 mb-6">
-                <button className="bg-[#E16A44] text-white px-4 py-2 font-bold rounded">SELENGKAPNYA</button>
+                <button className="bg-[#E16A44] text-white px-4 py-2 font-bold rounded text-sm">SELENGKAPNYA</button>
               </div>
             </div>
           </div>
@@ -80,9 +80,9 @@ const Destinasi = () => {
               <div className="card-title mt-4 ml-4">
                 <p>07.00 - 17.00</p>
               </div>
-              <h2 className='sm:text-3xl text-4xl text-left ml-4 mb-6 font-bold'>Candi Arjuna</h2>
+              <h2 className='sm:text-2xl text-4xl text-left ml-4 mb-6 font-bold'>Candi Arjuna</h2>
               <div className="card-actions mt-2 ml-4 mb-6">
-                <button className="bg-[#E16A44] text-white px-4 py-2 font-bold rounded">SELENGKAPNYA</button>
+                <button className="bg-[#E16A44] text-white px-4 py-2 font-bold rounded text-sm">SELENGKAPNYA</button>
               </div>
             </div>
           </div>
@@ -94,9 +94,9 @@ const Destinasi = () => {
               <div className="card-title mt-4 ml-4">
                 <p>07.00 - 17.00</p>
               </div>
-              <h2 className='sm:text-3xl text-4xl text-left ml-4 mb-6 font-bold'>Curug Sikarim</h2>
+              <h2 className='sm:text-2xl text-4xl text-left ml-4 mb-6 font-bold'>Curug Sikarim</h2>
               <div className="card-actions mt-2 ml-4 mb-6">
-                <button className="bg-[#E16A44] text-white px-4 py-2 font-bold rounded">SELENGKAPNYA</button>
+                <button className="bg-[#E16A44] text-white px-4 py-2 font-bold rounded text-sm">SELENGKAPNYA</button>
               </div>
             </div>
           </div>
@@ -108,9 +108,9 @@ const Destinasi = () => {
               <div className="card-title mt-4 ml-4">
                 <p>07.00 - 17.00</p>
               </div>
-              <h2 className='sm:text-3xl text-4xl text-left ml-4 mb-6 font-bold'>Telaga Warna</h2>
+              <h2 className='sm:text-2xl text-4xl text-left ml-4 mb-6 font-bold'>Telaga Warna</h2>
               <div className="card-actions mt-2 ml-4 mb-6">
-                <button className="bg-[#E16A44] text-white px-4 py-2 font-bold rounded">SELENGKAPNYA</button>
+                <button className="bg-[#E16A44] text-white px-4 py-2 font-bold rounded text-sm">SELENGKAPNYA</button>
               </div>
             </div>
           </div>
@@ -122,9 +122,9 @@ const Destinasi = () => {
               <div className="card-title mt-4 ml-4">
                 <p>07.00 - 17.00</p>
               </div>
-              <h2 className='sm:text-3xl text-4xl text-left ml-4 mb-6 font-bold'>Batu Angkruk</h2>
+              <h2 className='sm:text-2xl text-4xl text-left ml-4 mb-6 font-bold'>Batu Angkruk</h2>
               <div className="card-actions mt-2 ml-4 mb-6">
-                <button className="bg-[#E16A44] text-white px-4 py-2 font-bold rounded">SELENGKAPNYA</button>
+                <button className="bg-[#E16A44] text-white px-4 py-2 font-bold rounded text-sm">SELENGKAPNYA</button>
               </div>
             </div>
           </div>
@@ -137,9 +137,9 @@ const Destinasi = () => {
               <div className="card-title mt-4 ml-4">
                 <p>07.00 - 17.00</p>
               </div>
-              <h2 className='sm:text-3xl text-4xl text-left ml-4 mb-6 font-bold'>Museum Kailasa</h2>
+              <h2 className='sm:text-2xl text-4xl text-left ml-4 mb-6 font-bold'>Museum Kailasa</h2>
               <div className="card-actions mt-2 ml-4 mb-6">
-                <button className="bg-[#E16A44] text-white px-4 py-2 font-bold rounded">SELENGKAPNYA</button>
+                <button className="bg-[#E16A44] text-white px-4 py-2 font-bold rounded text-sm">SELENGKAPNYA</button>
               </div>
             </div>
           </div>
@@ -151,9 +151,9 @@ const Destinasi = () => {
               <div className="card-title mt-4 ml-4">
                 <p>07.00 - 17.00</p>
               </div>
-              <h2 className='sm:text-3xl text-4xl text-left ml-4 mb-6 font-bold'>Bukit Sikunir</h2>
+              <h2 className='sm:text-2xl text-4xl text-left ml-4 mb-6 font-bold'>Bukit Sikunir</h2>
               <div className="card-actions mt-2 ml-4 mb-6">
-                <button className="bg-[#E16A44] text-white px-4 py-2 font-bold rounded">SELENGKAPNYA</button>
+                <button className="bg-[#E16A44] text-white px-4 py-2 font-bold rounded text-sm">SELENGKAPNYA</button>
               </div>
             </div>
           </div>
@@ -165,9 +165,9 @@ const Destinasi = () => {
               <div className="card-title mt-4 ml-4">
                 <p>07.00 - 17.00</p>
               </div>
-              <h2 className='sm:text-3xl text-4xl text-left ml-4 mb-6 font-bold'>Kebun Teh Tambi</h2>
+              <h2 className='sm:text-2xl text-4xl text-left ml-4 mb-6 font-bold'>Kebun Teh Tambi</h2>
               <div className="card-actions mt-2 ml-4 mb-6">
-                <button className="bg-[#E16A44] text-white px-4 py-2 font-bold rounded">SELENGKAPNYA</button>
+                <button className="bg-[#E16A44] text-white px-4 py-2 font-bold rounded text-sm">SELENGKAPNYA</button>
               </div>
             </div>
           </div>
