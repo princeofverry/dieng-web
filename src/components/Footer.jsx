@@ -42,11 +42,11 @@ const Footer = () => {
                 <div className="md:w-1/4">
                     <h1 className='text-xl mb-4'>Fitur</h1>
                     <ul className='font-base font-extralight mb-4'>
-                        <Link to="/Destinasi" className="block py-2 ">Destination</Link>
-                        <Link to="/Penginapan" className="block py-2 ">Accommodation</Link>
-                        <Link to="/Merchinary" className="block py-2 ">Merchinary</Link>
-                        <Link to="/Festival" className="block py-2 ">Festival</Link>
-                        <Link to="/Aboutus" className="block py-2 ">About Us</Link>
+                        <Link to="/Destinasi" className="block py-1 ">Destination</Link>
+                        <Link to="/Penginapan" className="block py-1 ">Accommodation</Link>
+                        <Link to="/Merchinary" className="block py-1 ">Merchinary</Link>
+                        <Link to="/Festival" className="block py-1 ">Festival</Link>
+                        <Link to="/Aboutus" className="block py-1 ">About Us</Link>
                     </ul>
                 </div>
                 <div className="md:w-1/4 md:ml-4">

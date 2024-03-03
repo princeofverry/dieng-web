@@ -31,7 +31,7 @@ const Aboutus = () => {
       <div className="flex flex-col sm:flex-row items-center justify-center mt-10">
         <div className="max-w-full sm:w-1/2 p-8" data-aos="fade-up" data-aos-duration="1000">
           <h2 className="text-3xl md:text-4xl font-semibold text-[#E16A44] mb-4">Our Website</h2>
-          <p className="text-black">
+          <p className="text-black text-justify mr-20">
             AtasAwan adalah platform yang menyediakan informasi terkini seputar destinasi pariwisata Dieng. Website ini menjadi sumber terpercaya bagi wisatawan yang ingin menjelajahi keindahan alam dan kekayaan budaya Dieng. AtasAwan menawarkan panduan lengkap mengenai beragam event terbaru, akomodasi pilihan, dan kuliner khas yang dapat dinikmati di Dieng. Dengan konten yang informatif dan inspiratif, AtasAwan akan menemani para wisatawan yang ingin merasakan kesejukan Dieng.
           </p>
         </div>
@@ -45,7 +45,10 @@ const Aboutus = () => {
 
       <div className="text-center mt-10">
         <h2 className="text-4xl font-bold text-[#E16A44]" data-aos="fade-up" data-aos-duration="1000">
-          The Team
+          Newbie Team
+        </h2>
+        <h2 className="text-base mt-2" data-aos="fade-up" data-aos-duration="1000">
+          Universitas Diponegoro
         </h2>
       </div>
 
@@ -56,7 +59,7 @@ const Aboutus = () => {
         <div className="card card-compact bg-base-100 w-full sm:w-64" data-aos="zoom-in" data-aos-duration="1500">
           <div className="card-body flex flex-col items-left">
             <figure><img src={verry} alt="Telaga Menjer" /></figure>
-            <div className="card-title mt-4 ml-4 text-center">
+            <div className="card-title mt-4 ml-4 mb-8 text-center">
               <p>Verry Kurniawan</p>
             </div>
 
@@ -69,7 +72,7 @@ const Aboutus = () => {
             <figure><img src={caca} alt="Kawah Sikidang" /></figure>
 
           </div>
-          <div className="card-title mt-4 ml-4 text-center">
+          <div className="card-title mt-4 ml-4 mb-8 text-center">
             <p>Nisrina Azka Salsabila</p>
           </div>
         </div>
@@ -78,7 +81,7 @@ const Aboutus = () => {
         <div className="card card-compact bg-base-100 w-full sm:w-64" data-aos="zoom-in" data-aos-duration="1500">
           <div className="card-body flex flex-col items-left">
             <figure><img src={edi} alt="Candi Arjuna" /></figure>
-            <div className="card-title mt-4 ml-4 text-center">
+            <div className="card-title mt-4 ml-4 mb-8 text-center">
               <p>Edi Wicoro</p>
             </div>
           </div>
