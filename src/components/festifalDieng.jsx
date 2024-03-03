@@ -9,16 +9,16 @@ import { Link } from 'react-router-dom';
 
 const FestivalDieng = () => {
     const images = [
-        { src: FD1, title: 'Anjay', keterangan: 'Lorem ipsum dolar sit amet' },
-        { src: FD2, title: 'Anjay', keterangan: 'Lorem ipsum dolar sit amet' },
-        { src: FD3, title: 'Bnjay', keterangan: 'anjay' },
-        { src: FD4, title: 'Bjir', keterangan: 'bjir' },
-        { src: FD5, title: 'Njay', keterangan: 'anjay' },
-        { src: FD1, title: 'Anjay', keterangan: 'Lorem ipsum dolar sit amet' },
-        { src: FD2, title: 'Anjay', keterangan: 'Lorem ipsum dolar sit amet' },
-        { src: FD3, title: 'Bnjay', keterangan: 'anjay' },
-        { src: FD4, title: 'Bjir', keterangan: 'bjir' },
-        { src: FD5, title: 'Njay', keterangan: 'anjay' }
+        { src: FD1, title: 'Ruwatan', keterangan: 'Tradisi potong rambut gimbal' },
+        { src: FD2, title: 'Festival Lampion', keterangan: 'Festival tahunan Dieng' },
+        { src: FD3, title: 'Ruwatan', keterangan: 'Tradisi potong rambut gimbal' },
+        { src: FD4, title: 'Baritan', keterangan: 'Acara syukuran hasil panen' },
+        { src: FD5, title: 'Festival Lampion', keterangan: 'Festival tahunan Dieng' },
+        { src: FD1, title: 'Ruwatan', keterangan: 'Tradisi potong rambut gimbal' },
+        { src: FD2, title: 'Festival Lampion', keterangan: 'Festival tahunan Dieng' },
+        { src: FD3, title: 'Ruwatan', keterangan: 'Tradisi potong rambut gimbal' },
+        { src: FD4, title: 'Baritan', keterangan: 'Acara syukuran hasil panen' },
+        { src: FD5, title: 'Festival Lampion', keterangan: 'Festival tahunan Dieng' }
     ];
 
     return (
@@ -31,11 +31,11 @@ const FestivalDieng = () => {
                 <h1 className="text-[#E16A44] md:text-4xl text-xl font-semibold">
                     FESTIVAL DIENG
                 </h1>
-                <div className="py-4 sm:w-fit w-screen">
+                <div className="py-6 sm:w-fit w-screen">
                     <Carousel images={images} />
                 </div>
                 <Link to="/Festival">
-                <button className="bg-[#e16a44] px-4 py-2 rounded-lg my-4 text-white">See All</button>
+                <button className="bg-[#e16a44] px-8 py-4 rounded-lg my-4 text-white">See All</button>
                 </Link>
             </div>
         </>

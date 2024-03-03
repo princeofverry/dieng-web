@@ -4,6 +4,7 @@ import google from '../assets/google.png';
 import youtube from '../assets/youtube.png';
 import instagram from '../assets/instagram.png';
 import twitter from '../assets/twitter.png';
+import { Link, useNavigate } from 'react-router-dom';
 
 const Footer = () => {
     return (
@@ -16,16 +17,24 @@ const Footer = () => {
                         <h2 className="text-sm font-bold">FOLLOW US</h2>
                         <div className="flex gap-6">
                             <div className="bg-white rounded-full p-2 cursor-pointer">
-                                <img src={google} alt='google' />
+                                <a href="https://www.google.com" target="_blank" rel="noopener noreferrer">
+                                    <img src={google} alt='google' />
+                                </a>
                             </div>
                             <div className="bg-white rounded-full p-2 cursor-pointer">
-                                <img src={youtube} alt='youtube' />
+                                <a href="https://www.youtube.com" target="_blank" rel="noopener noreferrer">
+                                    <img src={youtube} alt='youtube' />
+                                </a>
                             </div>
                             <div className="bg-white rounded-full p-2 cursor-pointer">
-                                <img src={instagram} alt='instagram' />
+                                <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer">
+                                    <img src={instagram} alt='instagram' />
+                                </a>
                             </div>
                             <div className="bg-white rounded-full p-2 cursor-pointer">
-                                <img src={twitter} alt='twitter' />
+                                <a href="https://www.twitter.com" target="_blank" rel="noopener noreferrer">
+                                    <img src={twitter} alt='twitter' />
+                                </a>
                             </div>
                         </div>
                     </div>
@@ -33,10 +42,11 @@ const Footer = () => {
                 <div className="md:w-1/4">
                     <h1 className='text-xl mb-4'>Fitur</h1>
                     <ul className='font-base font-extralight mb-4'>
-                        <li>Destination</li>
-                        <li>Accommodation</li>
-                        <li>Merchinary</li>
-                        <li>Gallery</li>
+                        <Link to="/Destinasi" className="block py-2 ">Destination</Link>
+                        <Link to="/Penginapan" className="block py-2 ">Accommodation</Link>
+                        <Link to="/Merchinary" className="block py-2 ">Merchinary</Link>
+                        <Link to="/Festival" className="block py-2 ">Festival</Link>
+                        <Link to="/Aboutus" className="block py-2 ">About Us</Link>
                     </ul>
                 </div>
                 <div className="md:w-1/4 md:ml-4">
