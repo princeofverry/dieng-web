@@ -13,8 +13,8 @@ const Statistic = () => {
                     <img src={people} />
                     {/* text */}
                     <div className='text-[#e16a44]'>
-                        <h1 className='text-xl font-bold' s><Couting angka={5245} /></h1>
-                        <p className='text-sm'>Happy Visitors</p>
+                        <h1 className='text-2xl font-bold' s><Couting angka={5245} /></h1>
+                        <p className='text-lg'>Happy Visitors</p>
                     </div>
                 </div>
                 {/* destinasi */}
@@ -22,8 +22,8 @@ const Statistic = () => {
                     <img src={routing} />
                     {/* text */}
                     <div className='text-[#e16a44]'>
-                        <h1 className='text-xl font-bold' s><Couting angka={38} /></h1>
-                        <p className='text-sm'>Destination</p>
+                        <h1 className='text-2xl font-bold' s><Couting angka={38} /></h1>
+                        <p className='text-lg'>Destinations</p>
                     </div>
                 </div>
                 {/* flag */}
@@ -31,8 +31,8 @@ const Statistic = () => {
                     <img src={flag} />
                     {/* text */}
                     <div className='text-[#e16a44]'>
-                        <h1 className='text-xl font-bold' s><Couting angka={17} /></h1>
-                        <p className='text-sm'>Event</p>
+                        <h1 className='text-2xl font-bold' s><Couting angka={17} /></h1>
+                        <p className='text-lg'>Events</p>
                     </div>
                 </div>
             </div>

@@ -9,7 +9,7 @@ const Maps = () => {
                     <div className="flex flex-col md:items-start items-center lg:w-1/4" data-aos="fade-up"
                         data-aos-anchor-placement="top-bottom"
                         data-aos-duration="1000">
-                        <h1 className="text-[#e16a44] md:text-4xl text-2xl font-medium mt-4 mx-auto lg:mx-0">
+                        <h1 className="text-[#e16a44] md:text-5xl text-2xl font-medium mt-4 mx-auto lg:mx-0">
                             <span className="border-t-4 border-[#e16a44] inline ">
                                 DIENG
                             </span>

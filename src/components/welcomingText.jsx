@@ -8,8 +8,8 @@ const WelcomingText = () => {
                 <h1 className="text-[#E16A44] md:text-5xl text-2xl font-semibold" data-aos="flip-up" data-aos-duration="700">
                     WELCOME TO DIENG
                 </h1>
-                <p className="text-[#271E1B] md:text-2xl text-sm pt-8 md:px-44 px-4 md:text-center text-justify tracking-widest" data-aos="zoom-in" data-aos-duration="1000">
-                    "Dieng, tempat para Dewa bersemayam, juga dikenal sebagai 'negeri di atas awan'. Destinasi menawan ini tidak hanya menyentuh aspek spiritual, tetapi juga menjadi daya tarik bagi para petualang dan pencinta alam."
+                <p className="text-[#271E1B] md:text-xl text-sm pt-8 md:px-44 px-4 md:text-center text-justify tracking-widest" data-aos="zoom-in" data-aos-duration="1000">
+                    "Negeri di atas awan, sebuah surga di alam yang mempesona. Tempat para Dewa bersemayam, di mana spiritualitas dan keindahan alam menyatu dalam harmoni yang memukau, memikat hati para petualang dengan pesonanya yang magis."
                 </p>
             </div>
         </>
