@@ -12,10 +12,10 @@ const Footer = () => {
             <div className="container mx-auto flex flex-col md:flex-row md:justify-between">
                 <div className="md:w-1/2 md:pr-12 flex flex-col">
                     <img src={logo} className="w-32 md:w-1/3 mx-auto md:mx-0 p-2 bg-white mb-4" alt="Logo" />
-                    <p className="text-sm ml-0 w-full md:w-1/2 text-justify mb-4">ATASAWAN adalah Website Pusat Informasi Pariwisata Dieng yang dikelola oleh Tim Newbie.</p>
+                    <p className="text-sm ml-0 w-full md:w-1/2 text-center md:text-justify mb-6">ATASAWAN adalah Website Pusat Informasi Pariwisata Dieng yang dikelola oleh Tim Newbie.</p>
                     <div className="flex sm:flex-row flex-col items-center gap-4 mb-4">
-                        <h2 className="text-sm font-bold">FOLLOW US</h2>
-                        <div className="flex gap-6">
+                        <h2 className="text-base font-bold">FOLLOW US</h2>
+                        <div className="flex gap-6 mb-4 md:mt-4">
                             <div className="bg-white rounded-full p-2 cursor-pointer">
                                 <a href="https://www.google.com" target="_blank" rel="noopener noreferrer">
                                     <img src={google} alt='google' />
@@ -39,9 +39,9 @@ const Footer = () => {
                         </div>
                     </div>
                 </div>
-                <div className="md:w-1/4">
-                    <h1 className='text-xl mb-4'>Fitur</h1>
-                    <ul className='font-base font-extralight mb-4'>
+                <div className="md:w-1/4 text-center md:text-justify">
+                    <h1 className='text-xl mb-1'>Fitur</h1>
+                    <ul className='font-base font-extralight mb-8'>
                         <Link to="/Destinasi" className="block py-1 ">Destination</Link>
                         <Link to="/Penginapan" className="block py-1 ">Accommodation</Link>
                         <Link to="/Merchinary" className="block py-1 ">Merchinary</Link>
@@ -49,8 +49,8 @@ const Footer = () => {
                         <Link to="/Aboutus" className="block py-1 ">About Us</Link>
                     </ul>
                 </div>
-                <div className="md:w-1/4 md:ml-4">
-                    <h1 className='mb-4'>Contact With Us</h1>
+                <div className="md:w-1/4 md:ml-4 text-center md:text-justify">
+                    <h1 className='text-lg mb-2'>Contact Us</h1>
                     <div className="font-extralight">
                         <p>WA : +62 812 543 687 90</p>
                         <p>AtasAwan@gmail.com</p>
