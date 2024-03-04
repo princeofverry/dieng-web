@@ -35,17 +35,19 @@ const Kirab = () => {
               <p className="text-lg">Gratis</p>
 
             </div>
-            <div className="bg-[#E16A44] text-white p-2 rounded-md">
-              <span className="text-lg">Penunjuk Arah / map &#10140; </span>
+            <div className="bg-[#E16A44] text-white p-2 rounded-md text-center">
+              <a href="https://maps.app.goo.gl/3wPP1oQAd6LHg1EbA" target="_blank" rel="noopener noreferrer">
+                <span className="text-xl">Maps &#10140; </span>
+              </a>
             </div>
           </div>
         </div>
       </div>
 
       <div className="md:mx-auto bg-[#F9F9F9] py-8">
-        <h2 className="text-3xl md:text-4xl font-semibold text-[#E16A44] mb-4 px-4 mt-4" data-aos="zoom-in" data-aos-duration="1000">DESKRIPSI</h2>
+        <h2 className="text-3xl md:text-4xl font-semibold text-[#E16A44] mb-4 px-4 mt-4 pl-12" data-aos="zoom-in" data-aos-duration="1000">DESKRIPSI</h2>
         <div className="flex items-center mb-2 md:mb-0 px-4" data-aos="zoom-in" data-aos-duration="1000">
-          <span className="font-regular text-gray-800">
+          <span className="font-regular text-gray-800 text-justify pr-12 pl-8">
             Kirab budaya menjadi salah satu daya tarik Dieng Culture Festival yang banyak menarik wisatawan.
             Pasalnya, acara ini dimulai sebelum dilangsungkan ruwatan atau pemotongan rambut gimbal.
             Kirab budaya berisi kesenian tradisional yang mengiringi upacara adat ruwatan.

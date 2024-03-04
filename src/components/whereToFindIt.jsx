@@ -1,7 +1,6 @@
 import React from 'react'
 import Boemi from '../assets/boemi.png'
 import maknohan from '../assets/maknohan.png'
-import { Link } from 'react-router-dom';
 
 const WhereToFindIt = () => {
     return (

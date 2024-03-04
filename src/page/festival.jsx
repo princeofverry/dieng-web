@@ -92,11 +92,11 @@ const Festival = () => {
           <div className="md:w-2/3 md:ml-4 md:pl-4 relative">
             <h3 className="text-xl md:text-3xl text-[#E16A44] pt-6 font-semibold mb-2">KIRAB BUDAYA</h3>
             <h3 className="text-sm font-medium md:text-lg mb-2">5 Feb 2024 <span className="font-normal">🕗 07.00 WIB</span></h3>
-            <p className="text-gray-600">Kirab Budaya adalah perayaan yang mempromosikan dan memperingati warisan budaya suatu daerah melalui parade atau prosesi dengan pakaian adat dan seni tradisional.</p>
+            <p className="text-gray-600 text-justify pr-12">Kirab Budaya adalah perayaan yang mempromosikan dan memperingati warisan budaya suatu daerah melalui parade atau prosesi dengan pakaian adat dan seni tradisional.</p>
 
             {/* Details Link */}
             <div className="absolute sm:bottom-6 bottom-0 right-4">
-              <Link to="/Kirab" className="text-500 cursor-pointer">See Details &#8250;</Link>
+              <Link to="/Kirab" className="text-500 cursor-pointer pr-4">See Details &#8250;</Link>
             </div>
           </div>
         </div>
@@ -122,11 +122,11 @@ const Festival = () => {
           <div className="md:w-2/3 md:ml-4 md:pl-4 relative">
             <h3 className="text-xl md:text-3xl text-[#E16A44] pt-6 font-semibold mb-2">RUWATAN</h3>
             <h3 className="text-sm font-medium md:text-lg mb-2">5 Feb 2024 <span className="font-normal">🕗 07.00 WIB</span></h3>
-            <p className="text-gray-600">Ruwatan adalah ritual Jawa untuk membersihkan diri secara spiritual dan memperoleh perlindungan dari hal-hal buruk, biasanya dilakukan dengan persembahan kepada dewa atau roh.</p>
+            <p className="text-gray-600 text-justify pr-12">Ruwatan adalah ritual Jawa untuk membersihkan diri secara spiritual dan memperoleh perlindungan dari hal-hal buruk, biasanya dilakukan dengan persembahan kepada dewa atau roh.</p>
 
             {/* Details Link */}
             <div className="absolute sm:bottom-6 bottom-0 right-4">
-              <Link to="/Kirab" className="text-500 cursor-pointer">See Details &#8250;</Link>
+              <Link to="/Kirab" className="text-500 cursor-pointer pr-4">See Details &#8250;</Link>
             </div>
           </div>
         </div>
@@ -149,11 +149,11 @@ const Festival = () => {
           <div className="md:w-2/3 md:ml-4 md:pl-4 relative">
             <h3 className="text-xl md:text-3xl text-[#E16A44] pt-6 font-semibold mb-2">BARITAN</h3>
             <h3 className="text-sm font-medium md:text-lg mb-2">5 Feb 2024 <span className="font-normal">🕗 07.00 WIB</span></h3>
-            <p className="text-gray-600">Baritan adalah tradisi perjalanan kelompok dari satu desa ke desa lain, sering kali diiringi oleh musik tradisional dan acara keagamaan, memperkuat hubungan sosial di antara masyarakat.</p>
+            <p className="text-gray-600 text-justify pr-12">Baritan adalah tradisi perjalanan kelompok dari satu desa ke desa lain, sering kali diiringi oleh musik tradisional dan acara keagamaan, memperkuat hubungan sosial di antara masyarakat.</p>
 
             {/* Details Link */}
             <div className="absolute sm:bottom-6 bottom-0 right-4">
-              <Link to="/Kirab" className="text-500 cursor-pointer">See Details &#8250;</Link>
+              <Link to="/Kirab" className="text-500 cursor-pointer pr-4">See Details &#8250;</Link>
             </div>
           </div>
         </div>
@@ -176,11 +176,11 @@ const Festival = () => {
           <div className="md:w-2/3 md:ml-4 md:pl-4 relative">
             <h3 className="text-xl md:text-3xl text-[#E16A44] pt-6 font-semibold mb-2">FESTIVAL LAMPION</h3>
             <h3 className="text-sm font-medium md:text-lg mb-2">5 Feb 2024 <span className="font-normal">🕗 07.00 WIB</span></h3>
-            <p className="text-gray-600">Festival Lampion merayakan keindahan dan keceriaan dengan memamerkan lampion-lampion indah di malam hari, seringkali disertai dengan pertunjukan musik, tarian, dan pameran kuliner.</p>
+            <p className="text-gray-600 text-justify pr-12">Festival Lampion merayakan keindahan dan keceriaan dengan memamerkan lampion-lampion indah di malam hari, seringkali disertai dengan pertunjukan musik, tarian, dan pameran kuliner.</p>
 
             {/* Details Link */}
             <div className="absolute sm:bottom-6 bottom-0 right-4">
-              <Link to="/Kirab" className="text-500 cursor-pointer">See Details &#8250;</Link>
+              <Link to="/Kirab" className="text-500 cursor-pointer pr-4">See Details &#8250;</Link>
             </div>
           </div>
         </div>
